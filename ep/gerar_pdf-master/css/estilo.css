@@ -1,0 +1,65 @@
+body {
+	text-align: center;
+}
+
+.borda {
+	margin: 10px;
+	border: 7px double gray;
+	height: 100%;
+	width: 100%;
+}
+
+h1{
+	background-color: #D0EBF8;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 70px;
+	color: #02415A;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 8px double #02415A;
+	margin: 30px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	padding-top: 235px;
+	font-family: 'Palatino', serif;
+	font-size: 30px;
+}
+
+img {
+	float: left;
+}
+
+p.sub-titulo{
+	font-size: 25px;
+	margin: 1px 5px;
+}
+
+.direita{
+	text-align: right;
+}
+
+.center{
+	text-align: center;
+}
+
+.treinamentos {
+	height: 75%;
+	font-size: 18px;
+	margin: 15px;
+}
+
+.treinamentos table  {
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.treinamentos td  {
+	border: 1px solid grey;
+	text-align: center;
+}
+
+.rodape {
+	width: 100%;
+}
