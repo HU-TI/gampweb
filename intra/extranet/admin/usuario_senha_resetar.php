@@ -1,0 +1,64 @@
+<?
+/*
+ Transação para exclusão de um ou mais registros
+*/
+include("../inc/common.php");
+
+/*
+	verificação do nível do usuário, altere conforme sua necessidade, os números na string representam os grupos permitidos
+*/
+verificaPermissaoPagina("10,1");
+
+
+/*
+ conexão com o banco de dados
+*/
+$conn = new db();
+$conn->open();
+
+/*
+ captura e prepara a lista de registros
+*/ 
+
+/*
+ validação,
+ coloque aqui estruturas condicionais que
+ alimentam a variável MSG. siga o exemplo abaixo.
+*/
+$erro = new Erro();
+
+$lista = getParam("sel");
+if (sizeof($lista) != 1) $erro->addErro('Apenas um usuário deve ser selecionado.');
+$lista = $lista[0];
+
+if ($erro->hasErro()) { // se não passou na validação...
+	alert('Ocorreram os seguintes erros!\n' . $erro->toString());
+	redirect("../admin/usuario_lista.php","content");
+} else { // se passou na validação
+	if (strlen($lista)==0) { // se não existe registros selecionados
+		alert("Nenhum registro selecionado!");
+	} else { // se existe registro selecionado
+	   $sql = new UpdateSQL();
+	   $sql->setTable("usuario");
+	   $sql->setKey("cod_usuario",         $lista,              "Number");
+	   $sqlDados = "select * from usuario where cod_usuario = " . $lista;
+		 $rsDados = new query($conn, $sqlDados);
+	   if ($rsDados->getrow()) {
+		    $bd_usuario         = $rsDados->field("usuario");
+		    $bd_nome            = $rsDados->field("nome");
+		    $bd_email           = $rsDados->field("email");
+	   }
+		 $senha = geraSenhaMail($bd_nome,$bd_usuario,$bd_email,2);
+	   $sql->addField("senha",             md5($senha),                   "String");
+		 $sql->camposControle("UPDATE",dbnow());
+		 $sql->setAction("UPDATE");
+    $conn->execute($sql->getSQL());
+		 alert("Senha reiniciada com sucesso!");
+ 	 redirect("../admin/usuario_lista.php","content");
+	}
+}
+/*
+ fecha a conexão com o banco de dados
+*/
+$conn->close();
+?>

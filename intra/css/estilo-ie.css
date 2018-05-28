@@ -1,0 +1,17 @@
+/*Limpar formataçoes padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: static;
+}
+
+a img { 
+border: none; 
+}
+
+.center {
+	height: 6px;
+}

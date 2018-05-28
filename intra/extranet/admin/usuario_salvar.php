@@ -1,0 +1,76 @@
+<?
+/*
+	Transação de inclusão/alteração de registros
+*/
+include("../inc/common.php");
+
+/*
+	verificação do nível do usuário, altere conforme sua necessidade, os números na string representam os grupos permitidos
+*/
+verificaPermissaoPagina("10,1");
+
+
+/*
+	conexão com o banco de dados
+*/
+$conn = new db();
+$conn->open();
+
+/*
+	tratamento de campos,
+	configure conforme sua necessidade,
+	siga o exemplo abaixo
+*/
+//$data_cadastro = dtos(getParam("f_data_cadastro"));
+//$ativo         = strlen(getParam("f_ativo"))==0?"0":getParam("f_ativo");
+//$descricao     = addslashes(getParam("f_descricao"));
+
+/*
+	validação,
+	coloque aqui estruturas condicionais que
+	alimentem o objeto Erro. siga o exemplo abaixo.
+*/
+$erro = new Erro();
+if (getParam("f_usuario")=="")          $erro->addErro('Nome de usuário deve ser informado.');
+//if (isDuplicated("usuario", "usuario", "cod_usuario", getParam("f_usuario"), getParam("f_id"))) $erro->addErro('Nome de usuário já existe.');
+if (!ereg(REGEX_EMAIL, getParam("f_email"))) $erro->addErro('Endereço de e-mail inválido.');
+/*
+	Atualização dos dados, configure abaixo
+	conforme suas necessidades
+*/
+
+if (!$erro->hasErro()) { // passou na validação
+	// objeto para montagem de expressão sql
+	$sql = new UpdateSQL();
+	$sql->setTable("usuario");
+	$sql->setKey("cod_usuario",         getParam("f_id"),              "Number");	
+	$sql->addField("usuario",           getParam("f_usuario"),         "String");
+	$sql->addField("nivel_acesso",      getParam("f_nivel"),           "Number");
+	$sql->addField("nome",              getParam("f_nome"),            "String");
+	$sql->addField("email",             getParam("f_email"),           "String");
+	$sql->addField("fone",             getParam("f_fone"),           "String");
+	
+	if (getParam("f_id")>0) { // alteração, retirar strlen se vier de edicao_aux
+		$sql->camposControle("UPDATE",dbnow());
+		$sql->setAction("UPDATE");
+   $conn->execute($sql->getSQL());
+		$destino = "../admin/usuario_lista.php"; 
+	} else { // inclusão
+   $senha = geraSenhaMail(getParam("f_nome"),getParam("f_usuario"),getParam("f_email"));
+ 	$sql->addField("senha",             md5($senha),                   "String");
+		$sql->camposControle("INSERT",dbnow());
+		$sql->setAction("INSERT");
+		$last_id = $conn->execute($sql->getSQL());
+   $destino = "../admin/usuario_lista.php"; 
+	}
+	
+	// volta para a lista ou reapresenta o formulário em modo de edição
+	redirect($destino,"content");
+} else { // não passou na validação
+	alert('Ocorreram os seguintes erros!\n\n'.$erro->toString());
+}
+/*
+	Encerra a conexão com o banco de dados
+*/
+$conn->close();
+?>

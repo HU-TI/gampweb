@@ -1,0 +1,149 @@
+2006.03.07 15:54 B F:\WTP\admin\noticia_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates noticia_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\link_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\link_categoria_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_categoria_lista.php
+2006.03.07 15:54 B F:\WTP\admin\link_categoria_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_categoria_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\link_categoria_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_categoria_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\documento_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\documento_pesquisa.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_pesquisa.php
+2006.03.07 15:54 B F:\WTP\admin\documento_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_lista.php
+2006.03.07 15:54 B F:\WTP\admin\documento_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\documento_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\documento_categoria_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_categoria_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\documento_categoria_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_categoria_lista.php
+2006.03.07 15:54 B F:\WTP\admin\documento_categoria_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_categoria_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\documento_categoria_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates documento_categoria_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_troca_senha_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_troca_senha_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_troca_senha_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_troca_senha_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_senha_resetar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_senha_resetar.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_pesquisa.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_pesquisa.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_nivel_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_nivel_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_nivel_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_nivel_lista.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_nivel_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_nivel_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_nivel_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_nivel_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_lista.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\usuario_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates usuario_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\noticia_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates noticia_lista.php
+2006.03.07 15:54 B F:\WTP\admin\noticia_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates noticia_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\noticia_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates noticia_edicao.php
+2006.03.07 15:54 B F:\WTP\admin\link_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\link_pesquisa.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_pesquisa.php
+2006.03.07 15:54 B F:\WTP\admin\link_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_lista.php
+2006.03.07 15:54 B F:\WTP\admin\link_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\link_categoria_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates link_categoria_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\index.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates index.php
+2006.03.07 15:54 B F:\WTP\admin\nivel_salvar.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates nivel_salvar.php
+2006.03.07 15:54 B F:\WTP\admin\nivel_lista.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates nivel_lista.php
+2006.03.07 15:54 B F:\WTP\admin\nivel_excluir.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates nivel_excluir.php
+2006.03.07 15:54 B F:\WTP\admin\nivel_edicao.php --> lyon.procergs.com.br /bsd-des/pub/httpd/americasul/templates nivel_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_categoria_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_categoria_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_categoria_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_categoria_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_categoria_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_categoria_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_categoria_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_categoria_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_pesquisa.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_pesquisa.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\documento_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin documento_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\index.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin index.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_categoria_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_categoria_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_categoria_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_categoria_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_categoria_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_categoria_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_categoria_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_categoria_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_pesquisa.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_pesquisa.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\link_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin link_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\nivel_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin nivel_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\nivel_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin nivel_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\nivel_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin nivel_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\nivel_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin nivel_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\noticia_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin noticia_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\noticia_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin noticia_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\noticia_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin noticia_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\noticia_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin noticia_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_nivel_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_nivel_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_nivel_excluir.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_nivel_excluir.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_nivel_lista.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_nivel_lista.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_nivel_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_nivel_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_pesquisa.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_pesquisa.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_salvar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_senha_resetar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_senha_resetar.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_troca_senha_edicao.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_troca_senha_edicao.php
+2006.04.27 14:55 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\wtp\admin\usuario_troca_senha_salvar.php --> tjm.des.procergs /pacto.des.procergs/htdocs/admin usuario_troca_senha_salvar.php
+2006.05.12 11:53 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\WS_FTP.LOG <-- TJM-Des /pacto.des.procergs/htdocs/admin WS_FTP.LOG
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_categoria_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_categoria_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_categoria_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_categoria_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_categoria_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_categoria_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_categoria_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_categoria_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_pesquisa.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_pesquisa.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_pesquisa.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_pesquisa.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_resposta_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_resposta_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_resposta_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_resposta_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_resposta_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_resposta_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_resposta_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_resposta_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\enquete_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin enquete_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\evento_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin evento_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\evento_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin evento_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\evento_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin evento_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\evento_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin evento_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\index.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin index.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\inscritos_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin inscritos_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_categoria_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_categoria_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_categoria_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_categoria_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_categoria_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_categoria_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_categoria_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_categoria_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_pesquisa.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_pesquisa.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\link_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin link_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\nivel_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin nivel_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\nivel_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin nivel_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\nivel_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin nivel_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\nivel_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin nivel_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\principal.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin principal.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_nivel_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_nivel_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_nivel_excluir.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_nivel_excluir.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_nivel_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_nivel_lista.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_nivel_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_nivel_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_pesquisa.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_pesquisa.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_senha_resetar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_senha_resetar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_troca_senha_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_troca_senha_edicao.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\usuario_troca_senha_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin usuario_troca_senha_salvar.php
+2006.05.12 12:02 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\WS_FTP.LOG --> www.pactopeloriogrande.rs.gov.br /htdocs/admin WS_FTP.LOG
+2006.05.18 15:41 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_edicao.php <-- PACTORS_PROD /htdocs/admin documento_edicao.php
+2006.05.18 15:41 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_edicao.php <-- PACTORS_PROD /htdocs/admin documento_edicao.php
+2006.05.18 15:41 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_salvar.php <-- PACTORS_PROD /htdocs/admin documento_salvar.php
+2006.05.18 15:52 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_salvar.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_salvar.php
+2006.05.18 15:53 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_edicao.php
+2006.05.23 15:26 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_edicao.php <-- PACTORS_PROD /htdocs/admin documento_edicao.php
+2006.05.23 15:27 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\documento_edicao.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin documento_edicao.php
+2006.05.23 15:33 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php <-- PACTORS_PROD /htdocs/admin noticia_lista.php
+2006.05.23 15:34 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php <-- PACTORS_PROD /htdocs/admin noticia_lista.php
+2006.05.23 15:35 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_lista.php
+2006.05.23 15:41 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_lista.php
+2006.05.23 15:43 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_lista.php
+2006.05.23 15:51 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_lista.php
+2006.05.23 15:53 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php <-- PACTORS_PROD /htdocs/admin noticia_lista.php
+2006.05.23 15:54 B C:\Documents and Settings\angelo-rigo\Meus documentos\producao\pactors\noar\admin\noticia_lista.php --> www.pactopeloriogrande.rs.gov.br /htdocs/admin noticia_lista.php

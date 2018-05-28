@@ -1,0 +1,673 @@
+'body {
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif, "Verdana";
+	font-size:15px;
+}
+
+#bkg_body{
+	background-image: url(../img/bkg_body.jpg);
+	background-repeat: repeat-y;
+	background-position: center bottom;
+}
+
+/*___________________________________ linha colorida com fundo ________________________________________*/
+
+#linha_mais{
+			background-image:url(../img/bkg_linha_mais.jpg);
+			width:500px;
+			background-repeat:repeat-y;
+			color:#4D4D4D;						
+}
+
+#txt_data{ 	
+		font-size:12px;
+		letter-spacing: 1px;
+		color: #0095DA; 
+		text-align:left;
+		padding-left:10px;		
+		margin-top:10px;
+		padding-top:5px;
+		padding-bottom:5px		
+}
+
+
+#txt_titulo{ 	
+		font-size:12px;
+		font-weight:700;		
+		letter-spacing: 1px;
+		color: #0095DA; 
+		text-align:left;
+		padding-left:10px;		
+		margin-top:10px;
+		padding-top:5px;		
+}
+
+#txt_linha{
+			padding-left:10px;
+			padding-bottom:10px;
+			font-size:11px;
+}
+
+#linha_mais a {
+		color:#808080; 
+		text-decoration:none;
+	 } 
+	
+#linha_mais a:hover { 
+		color:#808080;
+		text-decoration:underline; } 		
+
+#linha_mais_1{
+			width:500px;
+			background-repeat: no-repeat;
+			color:#4D4D4D;	
+}
+
+#linha_mais_1 a {
+		color:#808080; 
+		text-decoration:none;
+	 } 
+	
+#linha_mais_1 a:hover { 
+		color:#808080;
+		text-decoration:underline; 
+		} 	
+		
+
+#mais_novidades{
+			padding-left:30px;
+}
+
+/*___________________________________ linha colorida com fundo contato ________________________________________*/
+
+#linha_mais_contato{
+			background-color:#E6F4FB;
+			width:600px;
+			color:#4D4D4D;						
+}
+
+#txt_data{
+		font-family:Arial, Helvetica, sans-serif, "Verdana"; 	
+		font-size:12px;
+		color: #0095DA; 
+		text-align:left;
+		padding-left:10px;		
+		margin-top:10px;
+		padding-top:5px;
+		padding-bottom:5px		
+}
+
+
+#txt_titulo_contato{
+		font-family:Arial, Helvetica, sans-serif, "Verdana";
+		font-size:12px;
+		font-weight:700;		
+		color: #0095DA; 
+		text-align:left;
+		padding-left:10px;		
+		margin-top:2px;
+		margin-bottom:2px;
+		padding-top:0px;		
+}
+
+#txt_linha_contato{
+		font-family:Arial, Helvetica, sans-serif, "Verdana";		
+		font-size:12px;
+		color: #4D4D4D; 
+		text-align:left;
+		padding-left:10px;		
+		margin-top:2px;
+		margin-bottom:2px;
+		padding-top:0px;
+}
+
+linha_mais_contato a {
+		color:#808080; 
+		text-decoration:none;
+	 } 
+	
+linha_mais_contato a:hover { 
+		color:#808080;
+		text-decoration:underline; } 		
+
+linha_mais_contato_1{
+			width:500px;
+			background-repeat: no-repeat;
+			color:#4D4D4D;	
+}
+
+linha_mais_contato_1 a {
+		color:#808080; 
+		text-decoration:none;
+	 } 
+	
+linha_mais_contato_1 a:hover { 
+		color:#808080;
+		text-decoration:underline; 
+		} 	
+		
+
+#mais_novidades{
+			padding-left:30px;
+}
+
+
+
+/*___________________________________ Conteudo ________________________________________*/
+
+h1{ 	
+		font-size: 85%;
+		font-weight:700;		
+		letter-spacing: 1px;
+		color: #0095DA; 
+		text-align:left;
+		margin-top:10px;
+		margin-bottom:10px;
+}
+
+h2 a { 
+	color:#0095DA;
+	text-decoration:none;
+	 } 
+	
+h2 a:hover { 
+	color:#0095DA;
+	text-decoration:underline; }
+	
+#titulo_pagina{
+		font-family:Arial, Helvetica, sans-serif, "Verdana"; 	
+		font-size:18px;
+		letter-spacing: 1px;
+		color: #0095DA;
+		text-align:left;
+		margin-top:10px;
+		margin-left:30px;
+		margin-bottom:10px;
+}
+
+	
+#link_acesso{ 	
+		font-family:Arial, Helvetica, sans-serif, "Verdana";
+		font-size:13px;
+		font-weight:700;		
+		color: #0095DA; 
+		text-align:center;
+		margin-top:10px;
+		margin-bottom:10px;
+}
+
+#link_acesso a { 
+	color:#0095DA;
+	text-decoration:none;
+	 } 
+	
+#link_acesso a:hover { 
+	color:#0095DA;
+	text-decoration:underline; } 	 
+
+
+#saudacao{
+		font-family:Arial, Helvetica, sans-serif, "Verdana";
+		font-size:13px;
+		font-weight:700;		
+		letter-spacing: 0px;
+		color: #4D4D4D; 
+		text-align:right;
+		margin-top:10px;
+		margin-bottom:10px;
+}
+
+#saudacao a { 
+	color:#4D4D4D;
+	text-decoration:none;
+	 } 
+	
+#saudacao a:hover { 
+	color:#0095DA;
+	text-decoration:underline; }
+
+
+
+h2{font-size: 80%;
+	font-weight:700;
+	color: #4D4D4D; 
+	letter-spacing: 1px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;}
+
+#home_banner{
+				margin-top:30px;
+				margin-bottom:5px;
+				margin-left:10px;
+}
+
+.box{
+		width:0px;
+		float:left; 
+		margin:10px;
+		width:285;
+		margin-bottom:10px; 
+		}
+
+div#inform{
+	font-family:Arial, Helvetica, sans-serif, "Verdana";
+	font-size:11px;
+	text-align:left;
+	color:#666666;
+	margin-left:10px;
+	margin-top:0px;
+	padding-top:0px;
+	overflow:auto; 
+}
+div#info {
+	font-family:Arial, Helvetica, sans-serif, "Verdana";
+	font-size:11px;
+	text-align:left;
+	color:#666666;
+	margin-left:10px;
+	margin-top:0px;
+	padding-top:0px;
+	width:366px;
+}
+
+#inform a { 
+	color:#666666;
+	text-decoration:none;
+	 } 
+	
+#inform a:hover { 
+	color:#666666;
+	text-decoration:underline; } 
+
+.separador_inform{
+	background: url(../img/separador_conteudo.png) no-repeat;
+	width:328px;
+	height:13px;
+	margin-top:10px;
+}
+
+ul.inform{
+	list-style: inside url(../img/marcador.png);
+	font-family:Arial, Helvetica, sans-serif, "Verdana";
+	font-size:12px;
+	text-align:left;
+	color:#666666;
+	margin-left:10px;
+	margin-top:1px;
+	padding-top:0px;
+	padding-left:0px;
+}
+li.inform a { 
+	color:#666666;
+	text-decoration:none;
+	 } 
+	
+li.inform a:hover { 
+	color:#666666;
+	text-decoration:underline; } 
+	
+/* _______________________________ Navegador ______________________________________________*/	
+	
+.preto { 
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif, "Verdana"; 
+		color:#666666;
+		text-decoration:none;
+		}
+
+.pagina_atual{
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif, "Verdana"; 
+		color:#0094D9; 
+		text-decoration:none;
+}
+
+/* _______________________________ \Navegador ______________________________________________*/	
+
+
+/* _______________________________ Navegador Mais______________________________________________*/	
+	
+#id_mais{padding-left:10px;}	
+	
+.preto_mais { 
+		font-size:12px;
+		text-align:left;
+		font-family:Arial, Helvetica, sans-serif, "Verdana"; 
+		color:#FFFFFF;
+		text-decoration:none;
+		}
+
+.pagina_atual_mais{
+		font-size:12px;
+		text-align:left;
+		font-family:Arial, Helvetica, sans-serif, "Verdana"; 
+		color:#FFFFFF; 
+		text-decoration:none;
+}
+
+/* _______________________________ \Navegador Mais______________________________________________*/	
+
+/*___________________________________ \Conteudo ________________________________________*/
+#page-bg {
+	padding: 0px 0px;
+	background-image: url(../img/bkg_body.gif);
+	background-repeat: no-repeat;	
+	background-position: top;
+}
+
+#texto_contato{
+	font-family:Arial, Helvetica, sans-serif, "Verdana";
+	font-size:12px;
+	color:#666666;
+	width:450px;
+	text-align:left;
+	margin-top:30px;
+	
+}
+
+
+#principal { 
+	margin: 0;
+	padding: 0;
+	width:867px;
+	/*height:auto;
+	height:836px; 836px;*/
+	/*position:relative; Contexto de posicionamento */
+	margin:0 auto;
+	min-height:100%;
+	}
+ 	* html #principal {
+ 	margin: 0;
+	padding: 0;
+ 	height: 100%;
+ 	}
+
+#topo{
+	/*background: #FFFFFF url(../img/topo0.png) no-repeat;*/
+	width:711px;
+	height:161px;
+	float:right;
+	bottom: 0; /**/ 
+	text-align:center;
+	margin:0;
+	padding:0;	
+}
+#cartola{
+	background: #FFFFFF url(../img/bkg_cartola.png) no-repeat;/**/
+	width:711px;
+	height:570px; /*570px;*/
+	float:left;
+	bottom: 0; /**/ 
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+#logo{
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 11px;
+	height:79px;
+	}
+
+#bkgmenu{
+	margin: 0;
+	padding: 0;
+	/*background: #FFFFFF url(../img/bkg_menu.png) no-repeat left;
+	width:156px;
+	height:836px; 836px;*/
+	float:left;
+	}
+
+
+
+
+#rodape {
+	/*background: #FFFFFF url(../img/rodape.gif) no-repeat;*/
+	width:710px;
+	height:50px;
+	float:left;
+/*	float:right;
+	vertical-align:bottom;
+	position:relative;*/
+	bottom:0;
+	margin:0;
+	padding:0px;  
+	text-align:center;
+	vertical-align:bottom;
+	vertical-align:text-bottom;	
+	/*}
+	#rodape p {
+	margin:0;*/
+	}
+
+/*_________________________________formulario_____________________________________________*/
+
+#MeuInput_textarea {border:none;
+					background-color:#E0F2FA;
+					overflow:hidden
+
+}
+
+#MeuInput_ddd {	border:none;  
+				width: 40px;  
+				height: 15px;  
+				background-color:#E0F2FA;
+				text-align:center
+}  
+			
+#MeuInput_fone {border:none;  
+				width: 120px;  
+				height: 15px;  
+				background-color:#E0F2FA;
+				text-align:center;
+				margin-left:10				
+}
+
+#MeuInput_text {border:none;  
+				background-color:#E0F2FA;
+				text-align:left;
+				margin-left:10				
+}
+#botao_form{border:none;
+			background-color:#0094D9;
+			color:#FFFFFF;
+
+}
+
+/*_________________________________\formulario_____________________________________________*/
+
+/*_________________________________Formulario Area Restrita________________________________*/
+
+#area_menu{
+	background: url(../img/area_restrita.png) no-repeat center;
+	width:155px;
+	height:75px;
+}
+
+#restrita_user {border:none;  
+				background-color:#E0F2FA;
+				font-size:9px;
+				width: 59px;
+				text-align:left;
+				margin-top:0px;
+				margin-left:0px;
+}
+
+#restrita_senha{border:none;  
+				background-color:#E0F2FA;
+				font-size:9px;
+				width: 40px;
+				text-align:left;
+				margin-top:0px;
+				margin-left:0px;			
+}
+
+#restrita_botao{border:none;
+			width: 18px;
+			height: 18px;
+			margin-top:0px;
+			margin-left:0px;
+			color:#FFFFFF;
+			background: url(../img/img_r4_c3.png) no-repeat center;			
+}
+/*_________________________________\Formulario Area Restrita_______________________________*/
+
+/*_________________________________Menu Vertical__________________________________________*/
+
+.font{color:#FFFFFF;}
+.bkg_sub_academi{
+background: url(../img/menu_academi.png) no-repeat;
+width:250px;
+height:91px;
+}
+
+.bkg_sub_estet{
+background: url(../img/menu_estet.png) no-repeat;
+width:173px;
+height:166px;
+}
+
+.bkg_sub_especialid{
+/*background: url(../img/menu_especialid.png) no-repeat;
+width:222px;
+height:136px;*/
+}
+
+.bkg_sub_fisio{
+background: url(../img/menu_fisio.png) no-repeat;
+width:218px;
+height:57px;
+}
+
+.bkg_sub_pilates{
+background: url(../img/menu_pilates.png) no-repeat;
+width:140px;
+height:88px;
+}
+
+.bkg_sub_somos{
+background: url(../img/menu_somos.png) no-repeat;
+width:143px;
+height:86px;
+}
+
+.separador_menu{
+background: url(../img/separador_menu.png) no-repeat;
+padding-top:0px;
+padding-bottom:0px;
+margin-bottom:0px;
+width:155px;
+height:20px;
+}
+
+ul.menu
+{
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 0px solid #ccc;
+	width: 155px; /* Width of Menu Items */
+	/*background-color: #FFFFFF;IE6 Bug */
+	text-align:right;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif, "Verdana";
+	font-size:15px;
+} 
+
+ul.menu ul 
+{
+	margin: 0;
+	border-bottom: 0px solid #ccc;
+	border-left: 0px solid #ccc;
+	border-right:0px solid #ccc;
+	border-top:0px solid #ccc;
+	font-size:12px;
+	white-space:nowrap;
+	/*width: 200px;  Width of Menu Items */ 
+	/*background-color: #FFFFFF;IE6 Bug */
+	text-align:left;
+	font-weight:bold;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+} 
+ 
+ul.menu li 
+{ 
+position: relative; 
+list-style: none; 
+border: 0px; 
+} 
+ 
+ul.menu li a 
+{ 
+display: block; 
+text-decoration: none; 
+border: 0px solid #ccc; 
+border-bottom: 0px; 
+/*color: #FFFFFF; */
+padding: 5px 10px 5px 5px; 
+} 
+ 
+/* Fix IE. Hide from IE Mac \*/ 
+* html ul.menu li { float: right; height: 1%; } 
+* html ul.menu li a { height: 1%; } 
+/* End */ 
+ 
+ul.menu ul 
+{ 
+position: absolute; 
+display: none; 
+left: 123px; /* Set 1px less than menu width */ 
+top: -10px; 
+} 
+
+ 
+/*ul.menu*/ li.submenu ul { display: none; } /* Hide sub-menus initially */ 
+ 
+/*ul.menu*/ li.submenu { text-align:right; } 
+ 
+/*ul.menu */li a { color:#0095DA; } 
+/*ul.menu */li a:hover { color:#95EDFD; } 
+/*_______________________________________________\menu_____________________________________*/
+
+/*_____________________________________Galeria____________________________________________*/
+
+	#gallery {
+		background:#FFF;
+		width: 640px;
+		padding-top:5px;
+	}
+/*	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 0px solid #3e3e3e;
+		border-width: 5px 5px 20px;
+	}
+	#gallery ul a:hover img {
+		border: 0px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	
+____________________________________________\Galeria__________________________________________*/	
+
+
+/*_____________________________________Fotos Inform____________________________________________*/
+
+	#fotinf {
+		width: 300px;
+		padding:0px;
+	}
+	#fotinf ul { list-style: none; }
+	#fotinf li { list-style:none; }
+	#fotinf ul img {
+		border: 0px solid #3e3e3e;
+		border-width: 5px 5px 20px;
+	}	
+/*____________________________________________\fotos Inform__________________________________________*/	

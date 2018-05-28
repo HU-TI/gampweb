@@ -1,0 +1,51 @@
+.text {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #FFFFFF;
+}
+.headerBODY {
+	background-color: #95B3DE;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: 1px solid #657DA6;
+	border-top: 1px solid #3D77CB;
+}
+.sistema {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica;
+	Filter: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+	font-size: 16pt;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: left;
+}
+A.navegacao:LINK {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #EDEDED;
+	text-decoration: none;
+}
+A.navegacao:ACTIVE {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #EDEDED;
+	text-decoration: none;
+}
+A.navegacao:VISITED {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #EDEDED;
+	text-decoration: none;
+}
+A.navegacao:HOVER {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}

@@ -1,0 +1,60 @@
+<?
+/*
+	Transação de inclusão/alteração de registros
+*/
+include("../inc/common.php");
+
+/*
+	verificação do nível do usuário, altere conforme sua necessidade, os números na string representam os grupos permitidos
+*/
+verificaPermissaoPagina("10,1");
+
+
+/*
+	conexão com o banco de dados
+*/
+$conn = new db();
+$conn->open();
+
+/*
+	validação,
+	coloque aqui estruturas condicionais que
+	alimentem o objeto Erro. siga o exemplo abaixo.
+*/
+$erro = new Erro();
+if (getParam("f_senha_atual")=="")                 $erro->addErro('Informe a senha atual.');
+$sql = "select senha from usuario where cod_usuario = ".getSession("sis_usercode");
+$senhaBanco = getDbValue($sql);
+if (md5(getParam("f_senha_atual"))!= $senhaBanco) $erro->addErro('A senha atual digitada está incorreta.');
+if (getParam("f_senha_nova")=="")                  $erro->addErro('Informe a nova senha.');
+if (getParam("f_senha_conf")=="")                  $erro->addErro('Informe a confirmação da nova senha.');
+if(getParam("f_senha_conf") != getParam("f_senha_nova")) $erro->addErro('Nova senha e confirmação devem ser iguais.');
+
+/*
+	Atualização dos dados, configure abaixo
+	conforme suas necessidades
+*/
+
+if (!$erro->hasErro()) { // passou na validação
+	// objeto para montagem de expressão sql
+	$sql = new UpdateSQL();
+	$sql->setTable("usuario");
+	$sql->setKey("cod_usuario",         getParam("f_id"),              "Number");
+	
+	$sql->addField("senha",             md5(getParam("f_senha_nova")),  "String");
+	$sql->camposControle("UPDATE",dbnow());
+	$sql->setAction("UPDATE");
+ $conn->execute($sql->getSQL());
+	$destino = "../admin/usuario_troca_senha_edicao.php"; 
+
+	alert('Senha alterada com sucesso.\n\n');
+	redirect($destino,"content");
+} 
+else { // não passou na validação
+	alert('Ocorreram os seguintes erros!\n\n'.$erro->toString());
+}
+/*
+	Encerra a conexão com o banco de dados
+*/
+$conn->close();
+?>

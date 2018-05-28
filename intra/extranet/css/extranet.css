@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#CACACC;
+  height:100%;
+}
+
+#site{
+  width:960px;
+  height:100%;
+  margin:auto;
+  background-color:#009C9F;
+  
+  }
+
+#menu-lateral{
+  width:176px;
+  height:960px;
+  margin:0;
+  bottom:0;
+  background-color:#09668B;
+  float:left;
+}
+
+#menu-lateral ul{
+  width: 176px;
+  height: 960px;
+  background-color:#09668B;
+}
+
+#menu-lateral ul li{
+  list-style:none;
+  text-align:left;
+  width:151px;
+
+  }
+
+.txt-menu-lateral{
+  padding-left:22px;
+  height:35px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+  line-height:42px;
+}
+
+.txt-menu-lateral2{
+  padding-left:22px;
+  height:38px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+}
+
+#menu-lateral ul li a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+#menu-lateral ul li a:hover{
+  color:#ffffff;
+  text-decoration:underline;
+}
+
+#corpo{
+  width: 784px;
+  height:910px;
+  background-color:#FFFFFF;
+  float:right;
+  right:0;
+  position:relative;
+}
+
+#banner{
+  width:782px;
+  height:151px; 
+  padding-top:8px; 
+  background-image:url(../images/banner.png);
+  background-repeat:no-repeat;
+  background-position:right;
+}
+
+#menu-secundario{
+  width:782px;
+  height:39px;
+  background-image:url(../images/menu.png);
+  background-repeat:no-repeat;
+  background-position:right;
+
+}
+
+#menu-secundario ul{
+  width:762px;
+  height:39px;
+  padding-left:30px;
+}
+.menu-1{
+  list-style:none;
+  text-align:center;
+  width:110px;
+  height:39px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+  line-height:39px;
+  float:left;
+  }
+
+.menu-2{
+  list-style:none;
+  text-align:center;
+  width:170px;
+  height:39px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+  line-height:39px;
+  float:left;
+  }
+  
+#menu-secundario ul li a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+#menu-secundario ul li a:hover{
+  color:#ffffff;
+  text-decoration:underline;
+}
+
+#titulo {
+  width:718px;
+  padding-top:46px;
+  padding-left:24px;
+  padding-right:42px;
+  padding-bottom:30px;
+  float:left;
+}
+
+#titulo img{
+  width:24px;
+  height:24px;
+  padding-right:12px;
+  float:left;
+}
+
+#titulo h1{
+  width:502px;
+  padding-right:42px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:20px;
+  text-transform:uppercase;
+  line-height:22px;
+  color:#59595c;
+  font-weight:normal;
+  float:left;
+  
+}
+/*---- texto corpo ---*/
+.texto {
+  width:685px;
+  margin-left:42px;
+  padding-top:18px;
+  padding-left:15px;
+  padding-right:42px;
+  padding-bottom:30px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+  color:#59595c;
+  float:left;
+  
+}
+
+.texto b a{
+  color:#009C9F;
+  text-decoration:none;
+  
+}
+
+.texto b a:hover{
+  color:#009C9F;
+  text-decoration:underline;
+  
+}
+/*---- Fim texto corpo ---*/
+
+/*---- texto contato corpo ---*/
+#txt_titulo_contato{
+    font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size:12px;
+    font-weight:685;    
+    color: #009C9F; 
+    text-align:left;
+    padding-left:50px;    
+    margin-top:2px;
+    margin-bottom:2px;
+    padding-top:0px;    
+}
+
+#txt_linha_contato{
+    font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;    
+    font-size:12px;
+    color: #59595c; 
+    text-align:left;
+    padding-left:10px;    
+    margin-top:2px;
+    margin-bottom:2px;
+    padding-top:0px;
+
+}
+
+#txt_titulo{   
+  width:550px;
+  /*margin-left:20px;*/
+  padding-top:18px;
+  padding-left:15px;
+  padding-right:42px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:14px;
+  color:#59595c;
+  float:left;
+    
+}
+#txt_linha{
+      margin-left:20x;
+      padding-left:15px;
+      padding-right:42px;
+      padding-bottom:30px;
+      font-size:11px;
+      color:#59595c;
+}    
+/*---- Fim texto Contato corpo ---*/
+p{
+  display:block;
+}
+
+#paginas {
+  width: 784px;
+  height:50px;
+  background-color:#FFFFFF;
+  float:right;
+  right:0;
+  position:relative;
+  }
+
+#paginas h3{
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:18px;
+  text-align:center;
+    line-height:22px;
+  color:#59595c;
+  font-weight:normal;
+  display:block;
+}
+
+#paginas h3 a{
+  color:#59595c;
+  text-decoration:none;
+}
+
+#paginas h3 a:hover{
+  color:#59595c;
+  text-decoration:underline;
+}
+
+#paginas h3 a:active{
+  color:#009ea1;
+  text-decoration:none;
+  font-weight:bold;
+}

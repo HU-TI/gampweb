@@ -1,0 +1,24 @@
+.texto1 {
+	line-height: 12pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #000000;
+}
+.texto1-destaque {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	line-height: 12pt;
+	font-weight: bold;
+	color: #000000;
+}
+.subtitulo1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #009933;
+	font-weight: bold;
+}
+.texto-enquete {
+	font-size: 7pt;
+	line-height: 10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
