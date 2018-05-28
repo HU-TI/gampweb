@@ -290,12 +290,31 @@ function funcaoAtalhos($mysqli){
         $id = $dados['id'];
 		$descricao = $dados['descricao'];
 		$endereco = $dados['endereco'];						
-        $icone = $dados['icone'];
-        
-		print'<div class="atalho">
- 		<a target="_blank" href="'.$endereco.'">
-    	<img src="intra/images/'.$icone.'" title="'.$descricao.'" >
-  		</a><div class="desc">'.$descricao.'</div>
+		$icone = $dados['icone'];
+		$protegido = $dados['protected'];
+		
+		print '<div class="atalho '.$icone.'">';
+
+		if(!$protegido){
+			print '<a target="_blank" href="'.$endereco.'">';
+		} else {
+			if($_SESSION) {
+				if($_SESSION['UsuarioAcesso'] == 5) {
+					print '<a target="_blank" href="'.$endereco.'">';
+				} else {
+					print '<script>
+						function naoTemPermissao(){
+							alert("Seu usuário não tem permissão necessária. Por favor, contate a TI através do Ramal 8081");
+						}
+						</script>';
+					print '<a onclick="naoTemPermissao()">';
+				}
+			} else {
+				print '<a target="_blank" href="/?tela=login">';
+			}
+		}
+		print '<img src="intra/images/'.$icone.'" title="'.$descricao.'" >
+		  </a><div class="desc">'.$descricao.'</div>
 		</div>';
 	}
 	print '</table>';
