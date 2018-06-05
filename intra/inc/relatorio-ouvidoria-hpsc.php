@@ -1,7 +1,8 @@
 <?php
 	require_once("../phpexcel/PHPExcel.php");
 	
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$db = require_once __DIR__.'./../mysql.php';
+	$mysqli = $db;
 
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;

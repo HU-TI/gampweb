@@ -1,6 +1,7 @@
 <?php
 // Connecting, selecting database
 $mysqliglpi = new mysqli('localhost', 'root', '', 'glpi');
+// $mysqliglpi = new mysqli('10.100.1.33', 'dev', 'devloop356', 'glpi');
 
 // Check erros
 if ( $mysqliglpi->connect_errno ) {

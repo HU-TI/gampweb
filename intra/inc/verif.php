@@ -1,6 +1,7 @@
 <?php
 //A gente pode levar o burro até a fonte, mas não pode obrigar ele a beber água
 include ('../config/config.php');
+$http = $_SERVER['SERVER_NAME'];
 
 //Função somente para validar usuário e senha no AD
 function valida_ldap($srv, $usr, $pwd){
@@ -36,9 +37,9 @@ if (!($search=@ldap_search($connect, $base_dn, '(|(samaccountname='.$login.'))')
 //Confere se os campos de login e senha foram preenchidos
 if(!$login || !$pass){
     ?> <script type="text/javascript">alert('Campos obrigatórios ficaram vazios, tente novamente...');</script><?php
-    echo '<meta http-equiv="refresh" content="0.01; URL=http://gamp-web/?tela=login" />';
+    echo "<meta http-equiv='refresh' content='0.01; URL=http://$http/?tela=login' />";
     //print "Campos obrigatórios ficaram vazios, tente novamente... <br> Você está sendo redirecionado à página principal...";
-    //echo "<br> <a href='http://gamp-web/'>Voltar</a>";
+    //echo "<br> <a href='http://$http/'>Voltar</a>";
 }else{
     //Utiliza a função e segue a operação caso autentique o usuário
     if (valida_ldap($server, $user, $pass)) {
@@ -59,7 +60,7 @@ if(!$login || !$pass){
             $_SESSION['UsuarioAcesso'] = $resultado['acesso'];
             //print $_SESSION['UsuarioLogin'];
             // Redireciona o visitante
-            header("Location: http://gamp-web/?tela=?"); exit;
+            header("Location: http://$http/?tela=?"); exit;
             /*$sqlglpi = "SELECT * FROM `glpi_users` WHERE `name` LIKE '$login'";
             $queryglpi = $mysqliglpi->query( $sql );
             if( $queryglpi->num_rows > 0 ) {//se retornar algum resultado
@@ -84,20 +85,19 @@ if(!$login || !$pass){
                 ldap_set_option($ldap, LDAP_OPT_REFERRALS, 0);
 
                 $bind = @ldap_bind($ldap, $ldaprdn, $adminPass);
-
+                
                 if($bind){
                     $filter = "(sAMAccountName=$login)";
-                    $result = ldap_search($ldap, "dc=hmd,dc=local", $filter);
-                    ldap_sort($ldap, $result, "sn");
+                    $result = ldap_search($ldap, "dc=hmd,dc=local", $filter);                  
                     $info = ldap_get_entries($ldap, $result);
-                    for ($i=0; $i < $info["count"] ; $i++) { 
-
+                    for ($i=0; $i < $info["count"] ; $i++) {
+                        
                         if ($info["count"] > 1)
-                            break;
+                        break;
                         //Armazena nome e setor
-                        $cn = $info[$i][cn][0];
-                        $dept = $info[$i][department][0];
-
+                        $cn = $info[$i]['cn'][0];
+                        $dept = $info[$i]['department'][0];
+                        
                         $userDn = $info[$i]["distinguishedname"][0];
                     }
                     @ldap_close($ldap);
@@ -113,10 +113,10 @@ if(!$login || !$pass){
             $setor_id = $deptResul['id'];
             print $setor_id;
             //Insere dados na base de login da Intra
-            $sql = "INSERT INTO `USUARIOS` (`id`,`login`,`nome`,`setor_id`,`acesso`)VALUES('','$login','$cn','$setor_id','1');"; 
+            $sql = "INSERT INTO `USUARIOS` (`login`,`nome`,`setor_id`,`acesso`)VALUES('$login','$cn', '0','1');"; 
             $query = $mysqli->query( $sql );
             $sql = "SELECT * FROM `usuarios` WHERE `login` LIKE '$login'";
-            $query = $mysqli->query( $sql );               
+            $query = $mysqli->query( $sql );
             if( $query->num_rows > 0 ) {//se retornar algum resultado
                 echo 'Criado!';
                 $resultado = mysqli_fetch_assoc($query);
@@ -131,14 +131,14 @@ if(!$login || !$pass){
                 //print $_SESSION['UsuarioLogin'];
                 // Redireciona o visitante
                 //header("Location: restrito.php"); exit;
-                header("Location: http://gamp-web/?tela=?"); exit;
+                header("Location: http://$http/?tela=?"); exit;
             }
         }
     } else {
         ?> <script type="text/javascript">alert('Usuário ou senha inválida, verifique os dados... ');</script><?php
-        echo '<meta http-equiv="refresh" content="0.01; URL=http://gamp-web/?tela=login" />';
+        echo "<meta http-equiv='refresh' content='0.01; URL=http://$http/?tela=login' />";
         //echo '<div id ="conteudo">Usuário ou senha inválida, verifique os dados... <br>Você está sendo redirecionado à pagina principal...';
-        //echo "<br> <a href='http://gamp-web/'>Voltar</a>";
+        //echo "<br> <a href='http://$http/'>Voltar</a>";
     }
 }
 ?>

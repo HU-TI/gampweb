@@ -25,7 +25,8 @@
 	$hht = 0;
 	$totalColaboradores = 0;
 	$tempoTotal = 0;
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$db = require_once __DIR__.'./../mysql.php';
+	$mysqli = $db;
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -69,7 +70,7 @@
 	/*
 	----PAGINAÇÃO
 
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -132,7 +133,7 @@
 			<td><select name="trein">
 				<option value="" disabled selected="selected">Selecione...</option>	'; 
 			// Connecting, selecting database
-			$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+			$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 			// Check erros
 			if ( $mysqli->connect_errno ) {
 			  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
