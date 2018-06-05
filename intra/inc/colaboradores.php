@@ -1,6 +1,7 @@
 <?php
 
-$conexion = new mysqli("localhost", "root", "", "intra_gamp");
+$db = require_once __DIR__.'./../mysql.php';
+$conexion = $db;
 
 $colab = $_GET['q'];
 

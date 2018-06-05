@@ -23,7 +23,8 @@ function funcaoVerificaAcesso (){
     }
 }
 function mysqliConnect(){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$db = require_once __DIR__.'./../mysql.php';
+	$mysqli = $db;
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -229,7 +230,7 @@ function abrirTelaEventoAdverso($mysqli){
 
 function menuAcesso($n_acesso){
 	// Connecting, selecting database
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -416,7 +417,7 @@ function funcaoSugRamal($mysqli){
 				<td><select name="setor">
 					<option value="" disabled selected="selected">Selecione...</option>	'; 
 					// Connecting, selecting database
-					$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+					$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 					// Check erros
 					if ( $mysqli->connect_errno ) {
 					  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3740,7 +3741,7 @@ function funcaoConfigEdt(){
 //retorna o setor por extenso a partir do id do setor
 function funcaoSetorPorID($setor_id){
 	// Connecting, selecting database
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3756,7 +3757,7 @@ function funcaoSetorPorID($setor_id){
 //pega o ramal a partir do $id do usuário e mostra na Config
 function funcaoGetRamal($id){
 	// Connecting, selecting database
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3772,7 +3773,7 @@ function funcaoGetRamal($id){
 //Faz o update e atualiza o ramal a partir dos dados do form da funcaoConfigEdt()
 function funcaoEditaRamal($id,$novoramal){
 	// Connecting, selecting database
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3786,7 +3787,7 @@ function funcaoEditaRamal($id,$novoramal){
 }
 //Faz o insert do ramal a conforme os dados inseridos em funcaoSugRamal($mysqli)
 function funcaoAdicionaRamal($ramal, $descricao, $setor){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3868,7 +3869,7 @@ function epAdcCategoria(){
 	print '</div>';
 }
 function epInsertCategoria($descricao){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3937,7 +3938,7 @@ function epEditaCategoria(){
 		print 'Não foi possivel concluir essa operação. <br> Favor verificar se o processo foi realizado 	corretamente, se o problema persistir, contatar o Administrador';
 		echo '<br> <a href="javascript:window.history.go(-1)">Voltar</a>';
 	}else{
-		$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+		$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 		// Check erros
 		if ( $mysqli->connect_errno ) {
 		  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3971,7 +3972,7 @@ function epEditaCategoria(){
 	print '</div>';
 }
 function epUpdateCategoria($id,$descricao){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -3982,7 +3983,7 @@ function epUpdateCategoria($id,$descricao){
 	$query = $mysqli->query($sql);
 }
 function epDeleteCategoria($id){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4009,7 +4010,7 @@ function epAdcTreinamento(){
 				<td><select name="categoria">
 					<option value="" disabled selected="selected">Selecione...</option>'; 
 					// Connecting, selecting database
-					$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+					$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 					// Check erros
 					if ( $mysqli->connect_errno ) {
 					  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4034,7 +4035,7 @@ function epAdcTreinamento(){
 	print '</div>';
 }
 function epInsertTreinamento($descricao,$categoria){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4104,7 +4105,7 @@ function epEditaTreinamento(){
 		print 'Não foi possivel concluir essa operação. <br> Favor verificar se o processo foi realizado 	corretamente, se o problema persistir, contatar o Administrador';
 		echo '<br> <a href="javascript:window.history.go(-1)">Voltar</a>';
 	}else{
-		$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+		$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 		// Check erros
 		if ( $mysqli->connect_errno ) {
 		  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4133,7 +4134,7 @@ function epEditaTreinamento(){
 					<td><select name="categoria">
 						<option value="" disabled >Selecione...</option>'; 
 						// Connecting, selecting database
-						$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+						$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 						// Check erros
 						if ( $mysqli->connect_errno ) {
 						  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4167,7 +4168,7 @@ function epEditaTreinamento(){
 	print '</div>';	
 }
 function epUpdateTreinamento($id,$descricao,$categoria){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4178,7 +4179,7 @@ function epUpdateTreinamento($id,$descricao,$categoria){
 	$query = $mysqli->query($sql);
 }
 function epDeleteTreinamento($id){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4210,7 +4211,7 @@ function epAdcColaborador(){
 		<td><select name="setor">
 			<option value="" disabled selected="selected">Selecione...</option>	'; 
 			// Connecting, selecting database
-			$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+			$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 			// Check erros
 			if ( $mysqli->connect_errno ) {
 			  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4234,7 +4235,7 @@ function epAdcColaborador(){
 	print '</div>';	
 }
 function epInsertColaborador($matricula,$nome,$setor){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4365,7 +4366,7 @@ function epEditaColaborador(){
 		echo '<br> <a href="javascript:window.history.go(-1)">Voltar</a>';
 	}else{
 		//mysqliConnect();
-		$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+		$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 		// Check erros
 		if ( $mysqli->connect_errno ) {
 		  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4421,7 +4422,7 @@ function epEditaColaborador(){
 	print '</div>';	
 }
 function epUpdateColaborador($matricula,$nome,$setor_id){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4432,7 +4433,7 @@ function epUpdateColaborador($matricula,$nome,$setor_id){
 	$query = $mysqli->query($sql);
 }
 function epDeleteColaborador($id){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4453,7 +4454,7 @@ function epAdcTreinRealizado(){
 		<td><select name="trein">
 			<option value="" disabled selected="selected">Selecione...</option>	'; 
 			// Connecting, selecting database
-			$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+			$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 			// Check erros
 			if ( $mysqli->connect_errno ) {
 			  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4484,7 +4485,7 @@ function epAdcTreinRealizado(){
 		<td><select name="sala">
 			<option value="" disabled selected="selected">Selecione...</option>	'; 
 			// Connecting, selecting database
-			$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+			$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 			// Check erros
 			if ( $mysqli->connect_errno ) {
 			  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4509,7 +4510,7 @@ function epAdcTreinRealizado(){
 	print '</div>';	
 }
 function epInsertTreinRealizado($trein_id,$multiplicador, $data, $tempo,$sala){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4645,7 +4646,7 @@ function epEditTreinRealizado(){
 	print '<div style="float: right;margin-right: 20px;"><a href="?tela=epPrincipal">Principal</a></div>';
 	print '<div style="float: right;margin-right: 20px;"><a href="?tela=epViewTreinReal">Treinamentos Realizados</a></div>';
 	//mysqliConnect();
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4668,7 +4669,7 @@ function epEditTreinRealizado(){
 		<td><select name="trein">
 			<option value="" disabled selected="selected">Selecione...</option>	'; 
 			// Connecting, selecting database
-			$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+			$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 			// Check erros
 			if ( $mysqli->connect_errno ) {
 			  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4702,7 +4703,7 @@ function epEditTreinRealizado(){
 		<td><select name="sala">
 			<option value="" disabled selected="selected">Selecione...</option>	'; 
 			// Connecting, selecting database
-			$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+			$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 			// Check erros
 			if ( $mysqli->connect_errno ) {
 			  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4735,7 +4736,7 @@ function epEditTreinRealizado(){
 	print '</div>';	
 }
 function epUpdateTreinRealizado($id, $trein_id,$multiplicador, $data, $tempo,$sala){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4746,7 +4747,7 @@ function epUpdateTreinRealizado($id, $trein_id,$multiplicador, $data, $tempo,$sa
 	$query = $mysqli->query($sql);
 }
 function epDeleteTreinRealizado($id){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4768,7 +4769,7 @@ function epColabTreinRealizado(){
 	print '<div style="float: right;margin-right: 20px;"><a href="?tela=epPrincipal">Principal</a></div>';
 	print '<div style="float: right;margin-right: 20px;"><a href="?tela=epViewTreinRealizados">Treinamentos Realizados</a></div>';
 	// Connecting, selecting database
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4902,7 +4903,7 @@ function epColabTreinRealizado(){
 	print '</div>';
 }
 function epInsertColabTreinReal($trein_id,$colab_id){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4914,7 +4915,7 @@ function epInsertColabTreinReal($trein_id,$colab_id){
 }
 function epDeleteColabTreinReal($del_id){
 	//
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -4941,7 +4942,7 @@ function epAdcSala(){
 	print '</div>';
 }
 function epInsertSala($descricao){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -5010,7 +5011,7 @@ function epEditaSala(){
 		print 'Não foi possivel concluir essa operação. <br> Favor verificar se o processo foi realizado 	corretamente, se o problema persistir, contatar o Administrador';
 		echo '<br> <a href="javascript:window.history.go(-1)">Voltar</a>';
 	}else{
-		$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+		$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 		// Check erros
 		if ( $mysqli->connect_errno ) {
 		  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -5044,7 +5045,7 @@ function epEditaSala(){
 	print '</div>';
 }
 function epUpdateSala($id,$descricao){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -5055,7 +5056,7 @@ function epUpdateSala($id,$descricao){
 	$query = $mysqli->query($sql);
 }
 function epDeleteSala($id){
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -5082,7 +5083,7 @@ function epCertificado (){
 }
 function epCertificadoCursos(){
 	//mysqliConnect();
-	$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;
@@ -5128,7 +5129,7 @@ function epSolicitaHHT(){
 			<td>Setor</td><td><select name="setor">
 			<option value="" disabled selected="selected">Selecione...</option>	'; 
 			// Connecting, selecting database
-			$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+			$mysqli = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 			// Check erros
 			if ( $mysqli->connect_errno ) {
 			  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;

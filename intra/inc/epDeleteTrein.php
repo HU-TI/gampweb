@@ -6,7 +6,8 @@ if(!$id){
 	echo '<meta http-equiv="refresh" content="0.01; URL=http://gamp-web/ep/ep.php?tela=epViewCateg" />';
 
 }else{
-    $mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+	$db = require_once __DIR__.'./../mysql.php';
+    $mysqli = $db;
 	// Check erros
 	if ( $mysqli->connect_errno ) {
 	  echo $mysqli->connect_errno, ' ', $mysqli->connect_error;

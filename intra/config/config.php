@@ -1,6 +1,6 @@
 <?php
 /*
-$conn = new mysqli('localhost', 'root', '', 'intra_gamp');
+$conn = new mysqli('10.100.1.33', 'dev', 'devloop356', 'intra_gamp');
 if ($conn->connect_error) {
     trigger_error('Database connection failed: '  . $conn->connect_error, E_USER_ERROR);
 }
@@ -14,8 +14,9 @@ mysql_query("SET character_set_results=utf8");*/
 
 //header(‘Content-Type: text/html; charset=utf-8′); // se ocorrer problemas com o header retirar essa linha
 
-	// Connecting, selecting database
-$mysqli = new mysqli('localhost', 'root', '', 'intra_gamp');
+    // Connecting, selecting database
+$db = require_once __DIR__.'./../mysql.php';
+$mysqli = $db;
 
 // Check erros
 if ( $mysqli->connect_errno ) {
