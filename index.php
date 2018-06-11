@@ -270,8 +270,9 @@ include ('intra/inc/inc.php');
 								<option value="" disabled selected="selected">Selecione um tipo de ARQUIVO</option>
 								<option value="fichasDoencasNotificacaoCompulsoria">Fichas de Doenças e Notificação Compulsória</option>
 								<option value="fluxosAcidentesTrabalho">Fluxos de Acidentes de Trabalho</option>
-								<option value="organogramas">Organogramas</option>								
+								<option value="organogramas">Organogramas</option>
 								<option value="regimentosCertidoes">Regimes e Certidões</option>
+								<option value="modelosDeDocumentos">Modelos de Documentos</option>
 								<option value="outros">Outros</option>
 							</select>
 						</form>
@@ -292,6 +293,10 @@ include ('intra/inc/inc.php');
 						
 						case "regimentosCertidoes":
 							header('Location: ?tela=regimentosCertidoes');
+						break;
+
+						case "modelosDeDocumentos":
+						header('Location: ?tela=modelosDeDocumentos');
 						break;
 						
 						case "outros":
@@ -320,6 +325,11 @@ include ('intra/inc/inc.php');
 				print '<div class="cor-padrao" align="center"></div>';
 				arquivosRegimentosCertidoes();
 			  break;
+			  case 'modelosDeDocumentos':
+			  print '<div id="titulo" class="cor-padrao">Arquivos</div>';
+			  print '<div class="cor-padrao" align="center"></div>';
+			  arquivosModelosDeDocumentos();
+			break;
 			  case 'outros':
 				print '
 					<div id="titulo" class="cor-padrao">Arquivos</div>

@@ -1337,6 +1337,63 @@ function arquivosRegimentosCertidoes(){
 	print '</div>';
 }
 
+function arquivosModelosDeDocumentos(){
+	//funcaoVerificaAcesso();
+	$dirmenu = "./intra/docs/arquivos/modelosDeDocumentos";
+	
+	/* Abre o diretório */
+	$pastamenu= opendir($dirmenu);
+	print '<div class="cor-padrao" align="center">Modelo de Documentos</div>';
+	print '<div class="comissoes" align="center">';
+	print '<form method="POST" action="?tela=modelosDeDocumentos" >
+		<img src="intra/images/ico-pasta1.png" height="20px" width="20px">
+		<select name = "caminho" ONCHANGE="this.form.submit()">
+		<option value="">ARQUIVOS - Modelo de Documentos</option>
+		<option value="" disabled selected="selected">Opções</option>';
+		//Cria as opções de arquivos conforme as pastas que forem colocadas no diretório.
+		while ($arquivomenu = readdir($pastamenu)){
+			if ($arquivomenu != '.' && $arquivomenu != '..'){
+				$extensao = pathinfo($arquivomenu, PATHINFO_EXTENSION);
+				if($extensao == null){
+					print '<option value="'.$arquivomenu.'">-'.$arquivomenu.'</option>';
+				}
+			}
+		}
+	print '</select><a href="?tela=arquivos" style="text-decoration:none; margin-left: 10px;">Voltar</a></form>';
+	$caminho = $_POST['caminho'];
+	// print '<p>'.$caminho.'</p>';
+	print '</div>';
+	print '<div style="width:100%; height:100%;">';
+	print '<div>';
+	print '<table border="0px" cellspacing="20">';
+	print '<div class="docs">';
+	/* Diretorio que deve ser lido */
+	$dir = "$dirmenu/$caminho/";
+	/* Abre o diretório */
+	$pasta= opendir($dir);
+	/* Loop para ler os arquivos do diretorio */
+	while ($arquivo = readdir($pasta)){
+		/* Verificacao para exibir apenas os arquivos e nao os caminhos para diretorios superiores */
+		if ($arquivo != '.' && $arquivo != '..'){
+			/* Escreve o nome do arquivo na tela */
+			$extensao = pathinfo($arquivo, PATHINFO_EXTENSION);
+			if(($extensao == null)||($extensao == "db")){
+				$extensao = 'pasta';
+			}else{
+				$aux = $dir.$arquivo;
+				$aux = str_replace(" ", "%20", "$aux");
+				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
+				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+			}
+		}
+	}
+
+	print '</div>';
+	print '</table>';
+	print '</div>';
+	print '</div>';
+}
+
 function arquivosOutrosHu(){
 	//funcaoVerificaAcesso();
 	$dirmenu = "./intra/docs/arquivos/outros/hu";
