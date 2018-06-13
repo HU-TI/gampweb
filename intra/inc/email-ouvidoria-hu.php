@@ -247,7 +247,7 @@ function enviarEmailOuvidoria($corpoMensagem, $dadosGestorUm, $dadosGestorDois, 
 	
 	// USUÁRIO E SENHA EMAIL OUVIDORIA - hu
 	$mail->Username = "hu.ouvidoria@gampcanoas.com.br";
-	$mail->Password = "Hu.ulbra";
+	$mail->Password = "Ouvi07142128";
 	// USUÁRIO E SENHA EMAIL OUVIDORIA - hu
 	
 	

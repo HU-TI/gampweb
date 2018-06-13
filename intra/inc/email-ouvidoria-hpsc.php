@@ -249,10 +249,10 @@ function enviarEmailOuvidoria($corpoMensagem, $dadosGestorUm, $dadosGestorDois, 
 	
 	// USUÁRIO E SENHA EMAIL OUVIDORIA - hu
 	$mail->Username = "ouvidoria.hpsc@gampcanoas.com.br";
-	$mail->Password = "Ouvidoria2018";		
+	$mail->Password = "Acolhimento2018";		
 	// USUÁRIO E SENHA EMAIL OUVIDORIA - hu
 	
-	$mail->IsHTML(true);			
+	$mail->IsHTML(true);
 	$mail->SetFrom("ouvidoria.hpsc@gampcanoas.com.br", "Ouvidoria Hospital de Pronto Socorro");
 	$mail->AddAddress($dadosGestorUm);
 	
