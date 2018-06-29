@@ -2040,6 +2040,7 @@ function cadastroOuvidoriaHu($mysqli){
 							<legend align="center">&nbsp;&nbsp;&nbsp;Dados Gestor&nbsp;&nbsp;&nbsp;</legend>
 							<div style="margin: 5px" align="center">
 								<select required name="dadosGestorUm">
+									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2118,6 +2119,7 @@ function cadastroOuvidoriaHu($mysqli){
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorDois">
+									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2196,6 +2198,7 @@ function cadastroOuvidoriaHu($mysqli){
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorTres">
+									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2274,6 +2277,7 @@ function cadastroOuvidoriaHu($mysqli){
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorQuatro">
+									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2352,6 +2356,7 @@ function cadastroOuvidoriaHu($mysqli){
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorCinco">
+									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
