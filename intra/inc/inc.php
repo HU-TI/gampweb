@@ -2050,16 +2050,15 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla Branco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
 									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
-									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
+									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
@@ -2084,7 +2083,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
-									<option value="laura.silva@gampcanoas.com.br" >Laura Silva - CAPS Amanhecer - laura.silva@gampcanoas.com.br</option>
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
@@ -2129,16 +2127,15 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla Branco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
 									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
-									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
+									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
@@ -2163,7 +2160,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
-									<option value="laura.silva@gampcanoas.com.br" >Laura Silva - CAPS Amanhecer - laura.silva@gampcanoas.com.br</option>
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
@@ -2208,16 +2204,15 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla Branco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
 									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
-									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
+									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
@@ -2242,7 +2237,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
-									<option value="laura.silva@gampcanoas.com.br" >Laura Silva - CAPS Amanhecer - laura.silva@gampcanoas.com.br</option>
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
@@ -2287,16 +2281,15 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla Branco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
 									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
-									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
+									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
@@ -2321,7 +2314,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
-									<option value="laura.silva@gampcanoas.com.br" >Laura Silva - CAPS Amanhecer - laura.silva@gampcanoas.com.br</option>
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
@@ -2366,16 +2358,15 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla Branco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
 									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
-									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
+									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
@@ -2400,7 +2391,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
-									<option value="laura.silva@gampcanoas.com.br" >Laura Silva - CAPS Amanhecer - laura.silva@gampcanoas.com.br</option>
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
