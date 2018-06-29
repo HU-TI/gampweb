@@ -1719,6 +1719,8 @@ function cadastroOuvidoriaHu($mysqli){
 										<option value="Postura Nutrição">Postura Nutrição</option>
 										<option value="Postura Recepção">Postura Recepção</option>
 										<option value="Postura Segurança">Postura Segurança</option>
+										<option value="Postura Enfermagem">Postura Enfermagem</option>
+										<option value="Postura Médica">Postura Médica</option>
 										
 										<option disabled value=""> </option>
 										<option disabled value="">S</option>
@@ -1858,6 +1860,8 @@ function cadastroOuvidoriaHu($mysqli){
 										<option value="Postura Nutrição">Postura Nutrição</option>
 										<option value="Postura Recepção">Postura Recepção</option>
 										<option value="Postura Segurança">Postura Segurança</option>
+										<option value="Postura Enfermagem">Postura Enfermagem</option>
+										<option value="Postura Médica">Postura Médica</option>
 										
 										<option disabled value=""> </option>
 										<option disabled value="">S</option>
@@ -1997,6 +2001,8 @@ function cadastroOuvidoriaHu($mysqli){
 										<option value="Postura Nutrição">Postura Nutrição</option>
 										<option value="Postura Recepção">Postura Recepção</option>
 										<option value="Postura Segurança">Postura Segurança</option>
+										<option value="Postura Enfermagem">Postura Enfermagem</option>
+										<option value="Postura Médica">Postura Médica</option>
 										
 										<option disabled value=""> </option>
 										<option disabled value="">S</option>
@@ -2043,7 +2049,6 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
-									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
 									<option value="ana.carvalho@gampcanoas.com.br" >Ana Carvalho - Recepções -  ana.carvalho@gampcanoas.com.br</option>
 									<option value="ana.papaleo@gampcanoas.com.br" >Ana Papaleo - CAPS Novos Tempos - ana.papaleo@gampcanoas.com.br</option>
 									<option value="andresa.cardoso@gampcanoas.com.br" >Andresa Cardoso - CAPS Recanto dos Girasóis - andresa.cardoso@gampcanoas.com.br</option>
@@ -2056,7 +2061,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
-									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
 									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
 									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
@@ -2120,7 +2124,6 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
-									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
 									<option value="ana.carvalho@gampcanoas.com.br" >Ana Carvalho - Recepções -  ana.carvalho@gampcanoas.com.br</option>
 									<option value="ana.papaleo@gampcanoas.com.br" >Ana Papaleo - CAPS Novos Tempos - ana.papaleo@gampcanoas.com.br</option>
 									<option value="andresa.cardoso@gampcanoas.com.br" >Andresa Cardoso - CAPS Recanto dos Girasóis - andresa.cardoso@gampcanoas.com.br</option>
@@ -2133,7 +2136,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
-									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
 									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
 									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
@@ -2197,7 +2199,6 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
-									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
 									<option value="ana.carvalho@gampcanoas.com.br" >Ana Carvalho - Recepções -  ana.carvalho@gampcanoas.com.br</option>
 									<option value="ana.papaleo@gampcanoas.com.br" >Ana Papaleo - CAPS Novos Tempos - ana.papaleo@gampcanoas.com.br</option>
 									<option value="andresa.cardoso@gampcanoas.com.br" >Andresa Cardoso - CAPS Recanto dos Girasóis - andresa.cardoso@gampcanoas.com.br</option>
@@ -2210,7 +2211,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
-									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
 									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
 									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
@@ -2274,7 +2274,6 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
-									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
 									<option value="ana.carvalho@gampcanoas.com.br" >Ana Carvalho - Recepções -  ana.carvalho@gampcanoas.com.br</option>
 									<option value="ana.papaleo@gampcanoas.com.br" >Ana Papaleo - CAPS Novos Tempos - ana.papaleo@gampcanoas.com.br</option>
 									<option value="andresa.cardoso@gampcanoas.com.br" >Andresa Cardoso - CAPS Recanto dos Girasóis - andresa.cardoso@gampcanoas.com.br</option>
@@ -2287,7 +2286,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
-									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
 									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
 									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
@@ -2351,7 +2349,6 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>	
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
-									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
 									<option value="ana.carvalho@gampcanoas.com.br" >Ana Carvalho - Recepções -  ana.carvalho@gampcanoas.com.br</option>
 									<option value="ana.papaleo@gampcanoas.com.br" >Ana Papaleo - CAPS Novos Tempos - ana.papaleo@gampcanoas.com.br</option>
 									<option value="andresa.cardoso@gampcanoas.com.br" >Andresa Cardoso - CAPS Recanto dos Girasóis - andresa.cardoso@gampcanoas.com.br</option>
@@ -2364,7 +2361,6 @@ function cadastroOuvidoriaHu($mysqli){
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
-									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
 									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.jesus@gampcanoas.com.br</option>									
 									<option value="diegolutzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
@@ -2849,8 +2845,6 @@ function cadastroOuvidoriaHpsc($mysqli){
 										<option value="Paciente e/ou familiar NÃO concorda com conduta médica">Paciente e/ou familiar NÃO concorda com conduta médica</option>
 										<option value="Perda de Pertence Emergência">Perda de Pertence Emergência</option>
 										<option value="Perda de Pertence UI">Perda de Pertence UI</option>
-										<option value="Postura Enfermagem">Postura Enfermagem</option>
-										<option value="Médica">Médica</option>
 										
 										<option disabled value=""></option>
 										<option disabled value="">R</option>
@@ -2969,8 +2963,6 @@ function cadastroOuvidoriaHpsc($mysqli){
 										<option value="Paciente e/ou familiar NÃO concorda com conduta médica">Paciente e/ou familiar NÃO concorda com conduta médica</option>
 										<option value="Perda de Pertence Emergência">Perda de Pertence Emergência</option>
 										<option value="Perda de Pertence UI">Perda de Pertence UI</option>
-										<option value="Postura Enfermagem">Postura Enfermagem</option>
-										<option value="Médica">Médica</option>
 										
 										<option disabled value=""></option>
 										<option disabled value="">R</option>
@@ -3089,8 +3081,6 @@ function cadastroOuvidoriaHpsc($mysqli){
 										<option value="Paciente e/ou familiar NÃO concorda com conduta médica">Paciente e/ou familiar NÃO concorda com conduta médica</option>
 										<option value="Perda de Pertence Emergência">Perda de Pertence Emergência</option>
 										<option value="Perda de Pertence UI">Perda de Pertence UI</option>
-										<option value="Postura Enfermagem">Postura Enfermagem</option>
-										<option value="Médica">Médica</option>
 										
 										<option disabled value=""></option>
 										<option disabled value="">R</option>
