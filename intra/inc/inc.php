@@ -2040,7 +2040,6 @@ function cadastroOuvidoriaHu($mysqli){
 							<legend align="center">&nbsp;&nbsp;&nbsp;Dados Gestor&nbsp;&nbsp;&nbsp;</legend>
 							<div style="margin: 5px" align="center">
 								<select required name="dadosGestorUm">
-									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2050,40 +2049,37 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - Internação 8° Andar - carla.pereira@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
 									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
-									<option value="cassiano.maffasioli@gampcanoas.com.br" >Cassiano Maffasioli - CTI Adulto - cassiano.maffasioli@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
-									<option value="clivian.costa@gampcanoas.com.br" >Clivian Costa - Gerente de RH - clivian.costa@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegolutzky@gmail.com" >Diego Lutzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
+									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
 									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>E</option>
-									<option value="eduardo.soares@gampcanoas.com.br" >Eduardo Soares - Saúde Mental - eduardo.soares@gampcanoas.com.br</option>
 									<option value="eventoadverso.hu@gampcanoas.com.br" >Evento Adverso - Qualidade da Saúde do Paciente - eventoadverso.hu@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>F</option>
 									<option value="fernando.farias@gampcanoas.com.br" >Fernando Farias - Diretor Médico - fernando.farias@gampcanoas.com.br</option>
-									<option value="rl.fisioterapia@hotmail.com" >Fisioterapia -  rl.fisioterapia@hotmail.com</option>
+									<option value="rl.fisioterapia@hotmail.com" >RL Fisioterapia -  rl.fisioterapia@hotmail.com</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>I</option>									
-									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Assistencial - igor.prestes@gampcanoas.com.br</option>
+									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Saúde Mental - igor.prestes@gampcanoas.com.br</option>
 									<option value="ilizabete.casonatto@gampcanoas.com.br" >Ilizabete Casonatto - Serviço Social - ilizabete.casonatto@gampcanoas.com.br</option>
-									<option value="isabela.morelato@gampcanoas.com.br" >Isabela Morelato - Gerente Assistencial - isabela.morelato@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>J</option>
-									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente de Áreas de Apoio - janine.sulzbach@gampcanoas.com.br</option>
+									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente Assistencial - janine.sulzbach@gampcanoas.com.br</option>
 									<option value="josiane.cysneiros@gampcanoas.com.br" >Josiane Cysneiros - Recepção - josiane.cysneiros@gampcanoas.com.br</option>
-									<option value="jeferson.pereira@gampcanoas.com.br" >Jeferson Pereira - Diretor Administrativo - jeferson.pereira@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
@@ -2091,17 +2087,18 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
-									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisisane.lenhardt@gampcanoas.com.br</option>
+									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisiane.lenhardt@gampcanoas.com.br</option>
+									<option value="louise.chagas@gampcanoas.com.br" >Louise Chagas - Diretora Assistencial - louise.chagas@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>M</option>
 									<option value="massai.vieira@gampcanoas.com.br" >Massai Vieira - massai.vieira@gampcanoas.com.br</option>
+									<option value="marcelo.feltrin@gampcanoas.com.br" >Marcelo Feltrin - Diretor Administrativo - marcelo.feltrin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>R</option>
 									<option value="rejane.bergmann@gampcanoas.com.br" >Rejane Bergmann - Saúde Auditiva - rejane.bergmann@gampcanoas.com.br</option>
 									<option value="renata.bonotto@gampcanoas.com.br" >Renata Bonotto - Serviço de Apoio ao Usuário / SUS - renata.bonotto@gampcanoas.com.br</option>
-									<option value="rosana.goncalves@gampcanoas.com.br" >Rosana Goncalves - CME - rosana.goncalves@gampcanoas.com.br</option>
 									<option value="rosane.lima@gampcanoas.com.br" >Rosane Lima - Laboratório Patologia - rosane.lima@gampcanoas.com.br</option>
 									<option value="rubia.wingert@gampcanoas.com.br" >Rubia Wingert - NIR - rubia.wingert@gampcanoas.com.br</option>
 																		
@@ -2111,7 +2108,8 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="hu.scih@gampcanoas.com.br" >SCIH - hu.scih@gampcanoas.com.br</option>
 									<option value="sergio.silva@gampcanoas.com.br" >Sergio Silva - Manutenção - sergio.silva@gampcanoas.com.br</option>									
 									<option value="simone.terra@gampcanoas.com.br" >Simone Terra - Nutrição - simone.terra@gampcanoas.com.br</option>
-									<option value="silva.konig@gampcanoas.com.br" >Silvia Konig - Unidade de Internação Adulto - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvia.konig@gampcanoas.com.br" >Silvia Konig - Radiologia Ambulatório - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvana.souza@gampcanoas.com.br" >Silvana Souza - Lider Serviço de Apoio ao Usuário - silvana.souza@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>Secretos</option>
@@ -2120,7 +2118,6 @@ function cadastroOuvidoriaHu($mysqli){
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorDois">
-									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2130,39 +2127,37 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - Internação 8° Andar - carla.pereira@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
 									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
-									<option value="cassiano.maffasioli@gampcanoas.com.br" >Cassiano Maffasioli - CTI Adulto - cassiano.maffasioli@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
-									<option value="clivian.costa@gampcanoas.com.br" >Clivian Costa - Gerente de RH - clivian.costa@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegolutzky@gmail.com" >Diego Lutzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
+									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>E</option>
-									<option value="eduardo.soares@gampcanoas.com.br" >Eduardo Soares - Saúde Mental - eduardo.soares@gampcanoas.com.br</option>
 									<option value="eventoadverso.hu@gampcanoas.com.br" >Evento Adverso - Qualidade da Saúde do Paciente - eventoadverso.hu@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>F</option>
 									<option value="fernando.farias@gampcanoas.com.br" >Fernando Farias - Diretor Médico - fernando.farias@gampcanoas.com.br</option>
-									<option value="rl.fisioterapia@hotmail.com" >Fisioterapia -  rl.fisioterapia@hotmail.com</option>
+									<option value="rl.fisioterapia@hotmail.com" >RL Fisioterapia -  rl.fisioterapia@hotmail.com</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>I</option>									
-									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Assistencial - igor.prestes@gampcanoas.com.br</option>
+									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Saúde Mental - igor.prestes@gampcanoas.com.br</option>
 									<option value="ilizabete.casonatto@gampcanoas.com.br" >Ilizabete Casonatto - Serviço Social - ilizabete.casonatto@gampcanoas.com.br</option>
-									<option value="isabela.morelato@gampcanoas.com.br" >Isabela Morelato - Gerente Assistencial - isabela.morelato@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>J</option>
-									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente de Áreas de Apoio - janine.sulzbach@gampcanoas.com.br</option>
+									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente Assistencial - janine.sulzbach@gampcanoas.com.br</option>
 									<option value="josiane.cysneiros@gampcanoas.com.br" >Josiane Cysneiros - Recepção - josiane.cysneiros@gampcanoas.com.br</option>
-									<option value="jeferson.pereira@gampcanoas.com.br" >Jeferson Pereira - Diretor Administrativo - jeferson.pereira@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
@@ -2170,18 +2165,18 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
-									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisisane.lenhardt@gampcanoas.com.br</option>
+									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisiane.lenhardt@gampcanoas.com.br</option>
+									<option value="louise.chagas@gampcanoas.com.br" >Louise Chagas - Diretora Assistencial - louise.chagas@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>M</option>
 									<option value="massai.vieira@gampcanoas.com.br" >Massai Vieira - massai.vieira@gampcanoas.com.br</option>
-									<option value="matheus.berna@gampcanoas.com.br" >Matheus Berna - matheus.berna@gampcanoas.com.br</option>
+									<option value="marcelo.feltrin@gampcanoas.com.br" >Marcelo Feltrin - Diretor Administrativo - marcelo.feltrin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>R</option>
 									<option value="rejane.bergmann@gampcanoas.com.br" >Rejane Bergmann - Saúde Auditiva - rejane.bergmann@gampcanoas.com.br</option>
 									<option value="renata.bonotto@gampcanoas.com.br" >Renata Bonotto - Serviço de Apoio ao Usuário / SUS - renata.bonotto@gampcanoas.com.br</option>
-									<option value="rosana.goncalves@gampcanoas.com.br" >Rosana Goncalves - CME - rosana.goncalves@gampcanoas.com.br</option>
 									<option value="rosane.lima@gampcanoas.com.br" >Rosane Lima - Laboratório Patologia - rosane.lima@gampcanoas.com.br</option>
 									<option value="rubia.wingert@gampcanoas.com.br" >Rubia Wingert - NIR - rubia.wingert@gampcanoas.com.br</option>
 																		
@@ -2191,12 +2186,16 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="hu.scih@gampcanoas.com.br" >SCIH - hu.scih@gampcanoas.com.br</option>
 									<option value="sergio.silva@gampcanoas.com.br" >Sergio Silva - Manutenção - sergio.silva@gampcanoas.com.br</option>									
 									<option value="simone.terra@gampcanoas.com.br" >Simone Terra - Nutrição - simone.terra@gampcanoas.com.br</option>
-									<option value="silva.konig@gampcanoas.com.br" >Silvia Konig - Unidade de Internação Adulto - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvia.konig@gampcanoas.com.br" >Silvia Konig - Radiologia Ambulatório - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvana.souza@gampcanoas.com.br" >Silvana Souza - Lider Serviço de Apoio ao Usuário - silvana.souza@gampcanoas.com.br</option>
+									
+									<option value="" disabled> </option>
+									<option value="" disabled>Secretos</option>
+									<option value="mauricio.pereira@gampcanoas.com.br" >Mauricio Ray - Analista de Sistemas - mauricio.pereira@gampcanoas.com.br</option>
 								</select>								
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorTres">
-									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2206,39 +2205,37 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - Internação 8° Andar - carla.pereira@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
 									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
-									<option value="cassiano.maffasioli@gampcanoas.com.br" >Cassiano Maffasioli - CTI Adulto - cassiano.maffasioli@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
-									<option value="clivian.costa@gampcanoas.com.br" >Clivian Costa - Gerente de RH - clivian.costa@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegolutzky@gmail.com" >Diego Lutzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
+									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>E</option>
-									<option value="eduardo.soares@gampcanoas.com.br" >Eduardo Soares - Saúde Mental - eduardo.soares@gampcanoas.com.br</option>
 									<option value="eventoadverso.hu@gampcanoas.com.br" >Evento Adverso - Qualidade da Saúde do Paciente - eventoadverso.hu@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>F</option>
 									<option value="fernando.farias@gampcanoas.com.br" >Fernando Farias - Diretor Médico - fernando.farias@gampcanoas.com.br</option>
-									<option value="rl.fisioterapia@hotmail.com" >Fisioterapia -  rl.fisioterapia@hotmail.com</option>
+									<option value="rl.fisioterapia@hotmail.com" >RL Fisioterapia -  rl.fisioterapia@hotmail.com</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>I</option>									
-									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Assistencial - igor.prestes@gampcanoas.com.br</option>
+									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Saúde Mental - igor.prestes@gampcanoas.com.br</option>
 									<option value="ilizabete.casonatto@gampcanoas.com.br" >Ilizabete Casonatto - Serviço Social - ilizabete.casonatto@gampcanoas.com.br</option>
-									<option value="isabela.morelato@gampcanoas.com.br" >Isabela Morelato - Gerente Assistencial - isabela.morelato@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>J</option>
-									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente de Áreas de Apoio - janine.sulzbach@gampcanoas.com.br</option>
+									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente Assistencial - janine.sulzbach@gampcanoas.com.br</option>
 									<option value="josiane.cysneiros@gampcanoas.com.br" >Josiane Cysneiros - Recepção - josiane.cysneiros@gampcanoas.com.br</option>
-									<option value="jeferson.pereira@gampcanoas.com.br" >Jeferson Pereira - Diretor Administrativo - jeferson.pereira@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
@@ -2246,18 +2243,18 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
-									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisisane.lenhardt@gampcanoas.com.br</option>
+									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisiane.lenhardt@gampcanoas.com.br</option>
+									<option value="louise.chagas@gampcanoas.com.br" >Louise Chagas - Diretora Assistencial - louise.chagas@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>M</option>
 									<option value="massai.vieira@gampcanoas.com.br" >Massai Vieira - massai.vieira@gampcanoas.com.br</option>
-									<option value="matheus.berna@gampcanoas.com.br" >Matheus Berna - matheus.berna@gampcanoas.com.br</option>
+									<option value="marcelo.feltrin@gampcanoas.com.br" >Marcelo Feltrin - Diretor Administrativo - marcelo.feltrin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>R</option>
 									<option value="rejane.bergmann@gampcanoas.com.br" >Rejane Bergmann - Saúde Auditiva - rejane.bergmann@gampcanoas.com.br</option>
 									<option value="renata.bonotto@gampcanoas.com.br" >Renata Bonotto - Serviço de Apoio ao Usuário / SUS - renata.bonotto@gampcanoas.com.br</option>
-									<option value="rosana.goncalves@gampcanoas.com.br" >Rosana Goncalves - CME - rosana.goncalves@gampcanoas.com.br</option>
 									<option value="rosane.lima@gampcanoas.com.br" >Rosane Lima - Laboratório Patologia - rosane.lima@gampcanoas.com.br</option>
 									<option value="rubia.wingert@gampcanoas.com.br" >Rubia Wingert - NIR - rubia.wingert@gampcanoas.com.br</option>
 																		
@@ -2267,12 +2264,16 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="hu.scih@gampcanoas.com.br" >SCIH - hu.scih@gampcanoas.com.br</option>
 									<option value="sergio.silva@gampcanoas.com.br" >Sergio Silva - Manutenção - sergio.silva@gampcanoas.com.br</option>									
 									<option value="simone.terra@gampcanoas.com.br" >Simone Terra - Nutrição - simone.terra@gampcanoas.com.br</option>
-									<option value="silva.konig@gampcanoas.com.br" >Silvia Konig - Unidade de Internação Adulto - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvia.konig@gampcanoas.com.br" >Silvia Konig - Radiologia Ambulatório - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvana.souza@gampcanoas.com.br" >Silvana Souza - Lider Serviço de Apoio ao Usuário - silvana.souza@gampcanoas.com.br</option>
+									
+									<option value="" disabled> </option>
+									<option value="" disabled>Secretos</option>
+									<option value="mauricio.pereira@gampcanoas.com.br" >Mauricio Ray - Analista de Sistemas - mauricio.pereira@gampcanoas.com.br</option>
 								</select>								
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorQuatro">
-									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2282,39 +2283,37 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - Internação 8° Andar - carla.pereira@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
 									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
-									<option value="cassiano.maffasioli@gampcanoas.com.br" >Cassiano Maffasioli - CTI Adulto - cassiano.maffasioli@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
-									<option value="clivian.costa@gampcanoas.com.br" >Clivian Costa - Gerente de RH - clivian.costa@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegolutzky@gmail.com" >Diego Lutzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
+									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>E</option>
-									<option value="eduardo.soares@gampcanoas.com.br" >Eduardo Soares - Saúde Mental - eduardo.soares@gampcanoas.com.br</option>
 									<option value="eventoadverso.hu@gampcanoas.com.br" >Evento Adverso - Qualidade da Saúde do Paciente - eventoadverso.hu@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>F</option>
 									<option value="fernando.farias@gampcanoas.com.br" >Fernando Farias - Diretor Médico - fernando.farias@gampcanoas.com.br</option>
-									<option value="rl.fisioterapia@hotmail.com" >Fisioterapia -  rl.fisioterapia@hotmail.com</option>
+									<option value="rl.fisioterapia@hotmail.com" >RL Fisioterapia -  rl.fisioterapia@hotmail.com</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>I</option>									
-									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Assistencial - igor.prestes@gampcanoas.com.br</option>
+									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Saúde Mental - igor.prestes@gampcanoas.com.br</option>
 									<option value="ilizabete.casonatto@gampcanoas.com.br" >Ilizabete Casonatto - Serviço Social - ilizabete.casonatto@gampcanoas.com.br</option>
-									<option value="isabela.morelato@gampcanoas.com.br" >Isabela Morelato - Gerente Assistencial - isabela.morelato@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>J</option>
-									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente de Áreas de Apoio - janine.sulzbach@gampcanoas.com.br</option>
+									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente Assistencial - janine.sulzbach@gampcanoas.com.br</option>
 									<option value="josiane.cysneiros@gampcanoas.com.br" >Josiane Cysneiros - Recepção - josiane.cysneiros@gampcanoas.com.br</option>
-									<option value="jeferson.pereira@gampcanoas.com.br" >Jeferson Pereira - Diretor Administrativo - jeferson.pereira@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
@@ -2322,18 +2321,18 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
-									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisisane.lenhardt@gampcanoas.com.br</option>
+									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisiane.lenhardt@gampcanoas.com.br</option>
+									<option value="louise.chagas@gampcanoas.com.br" >Louise Chagas - Diretora Assistencial - louise.chagas@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>M</option>
 									<option value="massai.vieira@gampcanoas.com.br" >Massai Vieira - massai.vieira@gampcanoas.com.br</option>
-									<option value="matheus.berna@gampcanoas.com.br" >Matheus Berna - matheus.berna@gampcanoas.com.br</option>
+									<option value="marcelo.feltrin@gampcanoas.com.br" >Marcelo Feltrin - Diretor Administrativo - marcelo.feltrin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>R</option>
 									<option value="rejane.bergmann@gampcanoas.com.br" >Rejane Bergmann - Saúde Auditiva - rejane.bergmann@gampcanoas.com.br</option>
 									<option value="renata.bonotto@gampcanoas.com.br" >Renata Bonotto - Serviço de Apoio ao Usuário / SUS - renata.bonotto@gampcanoas.com.br</option>
-									<option value="rosana.goncalves@gampcanoas.com.br" >Rosana Goncalves - CME - rosana.goncalves@gampcanoas.com.br</option>
 									<option value="rosane.lima@gampcanoas.com.br" >Rosane Lima - Laboratório Patologia - rosane.lima@gampcanoas.com.br</option>
 									<option value="rubia.wingert@gampcanoas.com.br" >Rubia Wingert - NIR - rubia.wingert@gampcanoas.com.br</option>
 																		
@@ -2343,12 +2342,16 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="hu.scih@gampcanoas.com.br" >SCIH - hu.scih@gampcanoas.com.br</option>
 									<option value="sergio.silva@gampcanoas.com.br" >Sergio Silva - Manutenção - sergio.silva@gampcanoas.com.br</option>									
 									<option value="simone.terra@gampcanoas.com.br" >Simone Terra - Nutrição - simone.terra@gampcanoas.com.br</option>
-									<option value="silva.konig@gampcanoas.com.br" >Silvia Konig - Unidade de Internação Adulto - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvia.konig@gampcanoas.com.br" >Silvia Konig - Radiologia Ambulatório - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvana.souza@gampcanoas.com.br" >Silvana Souza - Lider Serviço de Apoio ao Usuário - silvana.souza@gampcanoas.com.br</option>
+									
+									<option value="" disabled> </option>
+									<option value="" disabled>Secretos</option>
+									<option value="mauricio.pereira@gampcanoas.com.br" >Mauricio Ray - Analista de Sistemas - mauricio.pereira@gampcanoas.com.br</option>
 								</select>								
 							</div>
 							<div style="margin: 5px" align="center">
 								<select name="dadosGestorCinco">
-									<option value="" disabled selected="selected">Selecione um(a) gestor(a)</option>
 									<option value="" disabled>A</option>
 									<option value="adriane.boff@gampcanoas.com.br" >Adriane Boff - Materno Infantil - adriane.boff@gampcanoas.com.br</option>
 									<option value="alessandra.wolf@gampcanoas.com.br" >Alessandra Wolf - Psicologia - alessandra.wolf@gampcanoas.com.br</option>
@@ -2358,39 +2361,37 @@ function cadastroOuvidoriaHu($mysqli){
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>C</option>
-									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - Internação 8° Andar - carla.pereira@gampcanoas.com.br</option>
+									<option value="carla.branco@gampcanoas.com.br">Carla bbanco - Coordenação Psicológica - carla.branco@gampcanoas.com.br</option>
+									<option value="carla.pereira@gampcanoas.com.br">Carla Pereira - UTI Adulto - carla.pereira@gampcanoas.com.br</option>
 									<option value="caroline.ferreira@gampcanoas.com.br" >Caroline Ferreira - Farmácia - caroline.ferreira@gampcanoas.com.br</option>
-									<option value="cassiano.maffasioli@gampcanoas.com.br" >Cassiano Maffasioli - CTI Adulto - cassiano.maffasioli@gampcanoas.com.br</option>
 									<option value="claudia.lazzarin@gampcanoas.com.br">Claudia Lazzarin - Telefonia - claudia.lazzarin@gampcanoas.com.br</option>
-									<option value="clivian.costa@gampcanoas.com.br" >Clivian Costa - Gerente de RH - clivian.costa@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>D</option>
 									<option value="danielle.fonseca@gampcanoas.com.br" >Danielle Fonseca - Convênios - danielle.fonseca@gampcanoas.com.br</option>									
-									<option value="diegolutzky@gmail.com" >Diego Lutzky - Chefe Médicos Traumatos - diegolutzky@gmail.com</option>
+									<option value="danielle.jesus@gampcanoas.com.br" >Danielle Jesus - 8º e 10º Andar / Convênios  - danielle.fonseca@gampcanoas.com.br</option>									
+									<option value="diegoluttzky@gmail.com" >Diego Luttzky - Chefe Médicos Traumatos - diegoluttzky@gmail.com</option>
+									<option value="djenifer.correa@gampcanoas.com.br" >Djenifer Correa - Núcleo de Internação e Regulação - djenifer.correa@gampcanoas.com.br</option>
 									<option value="domitila.crus@gampcanoas.com.br" >Domitila Cruz - Bloco Cirúrgico - domitila.cruz@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>E</option>
-									<option value="eduardo.soares@gampcanoas.com.br" >Eduardo Soares - Saúde Mental - eduardo.soares@gampcanoas.com.br</option>
 									<option value="eventoadverso.hu@gampcanoas.com.br" >Evento Adverso - Qualidade da Saúde do Paciente - eventoadverso.hu@gampcanoas.com.br</option>
 																		
 									<option value="" disabled> </option>
 									<option value="" disabled>F</option>
 									<option value="fernando.farias@gampcanoas.com.br" >Fernando Farias - Diretor Médico - fernando.farias@gampcanoas.com.br</option>
-									<option value="rl.fisioterapia@hotmail.com" >Fisioterapia -  rl.fisioterapia@hotmail.com</option>
+									<option value="rl.fisioterapia@hotmail.com" >RL Fisioterapia -  rl.fisioterapia@hotmail.com</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>I</option>									
-									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Assistencial - igor.prestes@gampcanoas.com.br</option>
+									<option value="igor.prestes@gampcanoas.com.br" >Igor Prestes - Diretor Saúde Mental - igor.prestes@gampcanoas.com.br</option>
 									<option value="ilizabete.casonatto@gampcanoas.com.br" >Ilizabete Casonatto - Serviço Social - ilizabete.casonatto@gampcanoas.com.br</option>
-									<option value="isabela.morelato@gampcanoas.com.br" >Isabela Morelato - Gerente Assistencial - isabela.morelato@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>J</option>
-									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente de Áreas de Apoio - janine.sulzbach@gampcanoas.com.br</option>
+									<option value="janine.sulzbach@gampcanoas.com.br" >Janine Sulzbach - Gerente Assistencial - janine.sulzbach@gampcanoas.com.br</option>
 									<option value="josiane.cysneiros@gampcanoas.com.br" >Josiane Cysneiros - Recepção - josiane.cysneiros@gampcanoas.com.br</option>
-									<option value="jeferson.pereira@gampcanoas.com.br" >Jeferson Pereira - Diretor Administrativo - jeferson.pereira@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>L</option>
@@ -2398,18 +2399,18 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="leandro.becker@gampcanoas.com.br" >Leandro Becker - Diretor Infraestrutura - leandro.becker@gampcanoas.com.br</option>
 									<option value="lenine.oliveira@gampcanoas.com.br" >Lenine Oliveira - Segurança - lenine.oliveira@gampcanoas.com.br</option>
 									<option value="lisia.schulz@gampcanoas.com.br" >Lisia Schulz - Laboratório de Analises Clinicas - lisia.schulz@gampcanoas.com.br</option>
-									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisisane.lenhardt@gampcanoas.com.br</option>
+									<option value="lisiane.lenhardt@gampcanoas.com.br" >Lisisane Lenhardt - Pediatria - lisiane.lenhardt@gampcanoas.com.br</option>
+									<option value="louise.chagas@gampcanoas.com.br" >Louise Chagas - Diretora Assistencial - louise.chagas@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>M</option>
 									<option value="massai.vieira@gampcanoas.com.br" >Massai Vieira - massai.vieira@gampcanoas.com.br</option>
-									<option value="matheus.berna@gampcanoas.com.br" >Matheus Berna - matheus.berna@gampcanoas.com.br</option>
+									<option value="marcelo.feltrin@gampcanoas.com.br" >Marcelo Feltrin - Diretor Administrativo - marcelo.feltrin@gampcanoas.com.br</option>
 									
 									<option value="" disabled> </option>
 									<option value="" disabled>R</option>
 									<option value="rejane.bergmann@gampcanoas.com.br" >Rejane Bergmann - Saúde Auditiva - rejane.bergmann@gampcanoas.com.br</option>
 									<option value="renata.bonotto@gampcanoas.com.br" >Renata Bonotto - Serviço de Apoio ao Usuário / SUS - renata.bonotto@gampcanoas.com.br</option>
-									<option value="rosana.goncalves@gampcanoas.com.br" >Rosana Goncalves - CME - rosana.goncalves@gampcanoas.com.br</option>
 									<option value="rosane.lima@gampcanoas.com.br" >Rosane Lima - Laboratório Patologia - rosane.lima@gampcanoas.com.br</option>
 									<option value="rubia.wingert@gampcanoas.com.br" >Rubia Wingert - NIR - rubia.wingert@gampcanoas.com.br</option>
 																		
@@ -2419,7 +2420,12 @@ function cadastroOuvidoriaHu($mysqli){
 									<option value="hu.scih@gampcanoas.com.br" >SCIH - hu.scih@gampcanoas.com.br</option>
 									<option value="sergio.silva@gampcanoas.com.br" >Sergio Silva - Manutenção - sergio.silva@gampcanoas.com.br</option>									
 									<option value="simone.terra@gampcanoas.com.br" >Simone Terra - Nutrição - simone.terra@gampcanoas.com.br</option>
-									<option value="silva.konig@gampcanoas.com.br" >Silvia Konig - Unidade de Internação Adulto - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvia.konig@gampcanoas.com.br" >Silvia Konig - Radiologia Ambulatório - silvia.konig@gampcanoas.com.br</option>
+									<option value="silvana.souza@gampcanoas.com.br" >Silvana Souza - Lider Serviço de Apoio ao Usuário - silvana.souza@gampcanoas.com.br</option>
+									
+									<option value="" disabled> </option>
+									<option value="" disabled>Secretos</option>
+									<option value="mauricio.pereira@gampcanoas.com.br" >Mauricio Ray - Analista de Sistemas - mauricio.pereira@gampcanoas.com.br</option>
 								</select>								
 							</div>
 
@@ -2846,8 +2852,10 @@ function cadastroOuvidoriaHpsc($mysqli){
 										<option disabled value=""></option>
 										<option disabled value="">P</option>
 										<option value="Paciente e/ou familiar NÃO concorda com conduta médica">Paciente e/ou familiar NÃO concorda com conduta médica</option>
-										<option value="Perda de Pertence Emergência ">Perda de Pertence Emergência</option>
-										<option value="Perda de Pertence UI ">Perda de Pertence UI</option>
+										<option value="Perda de Pertence Emergência">Perda de Pertence Emergência</option>
+										<option value="Perda de Pertence UI">Perda de Pertence UI</option>
+										<option value="Postura Enfermagem">Postura Enfermagem</option>
+										<option value="Médica">Médica</option>
 										
 										<option disabled value=""></option>
 										<option disabled value="">R</option>
@@ -2882,7 +2890,7 @@ function cadastroOuvidoriaHpsc($mysqli){
 										<option value="UPA Caçapava Demora na reavaliação Pediatra">UPA Caçapava Demora na reavaliação Pediatra</option>
 										<option value="UPA Caçapava Reclamação Clínico ">UPA Caçapava Reclamação Clínico</option>
 										<option value="UPA Caçapava Reclamação Enfermagem ">UPA Caçapava Reclamação Enfermagem</option> 
-										<option value="UPA Caçapava Reclamação Pediatra ">UPA Caçapava Reclamação Pediatra</option>										
+										<option value="UPA Caçapava Reclamação Pediatra ">UPA Caçapava Reclamação Pediatra</option>		
 									</select>								
 								</label>
 							</div>
@@ -2964,8 +2972,10 @@ function cadastroOuvidoriaHpsc($mysqli){
 										<option disabled value=""></option>
 										<option disabled value="">P</option>
 										<option value="Paciente e/ou familiar NÃO concorda com conduta médica">Paciente e/ou familiar NÃO concorda com conduta médica</option>
-										<option value="Perda de Pertence Emergência ">Perda de Pertence Emergência</option>
-										<option value="Perda de Pertence UI ">Perda de Pertence UI</option>
+										<option value="Perda de Pertence Emergência">Perda de Pertence Emergência</option>
+										<option value="Perda de Pertence UI">Perda de Pertence UI</option>
+										<option value="Postura Enfermagem">Postura Enfermagem</option>
+										<option value="Médica">Médica</option>
 										
 										<option disabled value=""></option>
 										<option disabled value="">R</option>
@@ -3082,8 +3092,10 @@ function cadastroOuvidoriaHpsc($mysqli){
 										<option disabled value=""></option>
 										<option disabled value="">P</option>
 										<option value="Paciente e/ou familiar NÃO concorda com conduta médica">Paciente e/ou familiar NÃO concorda com conduta médica</option>
-										<option value="Perda de Pertence Emergência ">Perda de Pertence Emergência</option>
-										<option value="Perda de Pertence UI ">Perda de Pertence UI</option>
+										<option value="Perda de Pertence Emergência">Perda de Pertence Emergência</option>
+										<option value="Perda de Pertence UI">Perda de Pertence UI</option>
+										<option value="Postura Enfermagem">Postura Enfermagem</option>
+										<option value="Médica">Médica</option>
 										
 										<option disabled value=""></option>
 										<option disabled value="">R</option>
