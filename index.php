@@ -97,7 +97,7 @@ include ('intra/inc/inc.php');
 		<div id="area-principal">
 			<?php 
 			//Include abaixo serve para adicionar avisos à Intranet
-			include('intra/inc/CelularPlantao.html');
+			include('intra/inc/CelularPlantao.php');
 			?>
 			<div id="conteudo">
 				<!-- Switch de Funções -->
