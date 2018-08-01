@@ -38,7 +38,7 @@ include ('intra/inc/inc.php');
 				<div id="menu">
 					<a href="?">Home</a>
 					<a href="?tela=convenio">Convênios</a>
-					<a href="?tela=ramais">Ramais</a>
+					<a href=<?php echo "http://".$_SERVER['SERVER_NAME'].":8080/ramais"?>>Ramais</a>
 					<a href="?tela=arquivos">Arquivos</a>
 					<a href="?tela=pops">POPS</a>
 					<a href="?tela=institucional">Institucional</a>
