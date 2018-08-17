@@ -379,12 +379,13 @@ function funcaoRamais($mysqli){
 				</th>
 			</tr>
 		</div>';
-
+	
+	$baseUrl = "http://".$_SERVER['SERVER_NAME'].":3001";
 	if($pesquisa!=''){
 
 		curl_setopt_array($curl, [
 			CURLOPT_RETURNTRANSFER => 1,
-			CURLOPT_URL => "http://localhost:3001/ramal/filter/$pesquisa",
+			CURLOPT_URL => "$baseUrl/ramal/filter/$pesquisa",
 			CURLOPT_USERAGENT => 'Codular Sample cURL Request'
 		]);
 		
@@ -392,15 +393,18 @@ function funcaoRamais($mysqli){
 	} else {
 		curl_setopt_array($curl, [
 			CURLOPT_RETURNTRANSFER => 1,
-			CURLOPT_URL => "http://localhost:3001/ramal/",
+			CURLOPT_URL => "$baseUrl/ramal/",
 			CURLOPT_USERAGENT => 'Codular Sample cURL Request'
 		]);
 	}
 	$resp = curl_exec($curl);
 	curl_close($curl);
-			
+	
 	$ramals = json_decode($resp, true);
 
+	if(!$ramals){
+		print"<td>Nenhum Ramal encontrado</td>";
+	}
 	foreach ($ramals as $ramal) {
 		$number = $ramal['number'];
 		$core = $ramal['core'];
