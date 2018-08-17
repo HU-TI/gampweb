@@ -350,54 +350,76 @@ function funcaoRamais($mysqli){
 	print'<form method="POST" action="?tela=ramais" >';
 	print '<input type="text" name="pesquisa" size=50px><input type="submit" name="submit" value="Pesquisar" />';
 	print'<a href="?tela=sug_ramal">Sugerir um Ramal</a>';
-	if (isset($_SESSION['UsuarioID'])){
-		print'<a href="?tela=confEdt">Alterar Meu Ramal</a>';
-	}
+	// if (isset($_SESSION['UsuarioID'])){
+	// 	print'<a href="?tela=confEdt">Alterar Meu Ramal</a>';
+	// }
 	print '<br><br></form></div>';
-					
+
+	$curl = curl_init();
+
 	$pesquisa = $_POST['pesquisa'];
+	print '<div class="ramais-tb">';
+	
+	print '<div>';
+	print '<table border="0px" cellspacing="20">';
+	print' 
+		<div>
+			<tr>
+				<th style="text-align: center;">
+					<b>Ramal</b>
+				</th> 
+				<th style="text-align: center;">
+					<b>Setor</b>
+				</th> 
+				<th style="text-align: center;">
+					<b>Descrição</b>
+				</th> 
+				<th style="text-align: center;">
+					<b>Andar</b>
+				</th>
+			</tr>
+		</div>';
+
 	if($pesquisa!=''){
-		//print 'Aguarde, isso ainda não está pronto...';
-		print '<div class="ramais-tb">';
+
+		curl_setopt_array($curl, [
+			CURLOPT_RETURNTRANSFER => 1,
+			CURLOPT_URL => "http://localhost:3001/ramal/filter/$pesquisa",
+			CURLOPT_USERAGENT => 'Codular Sample cURL Request'
+		]);
 		
-		print '<div>';
-		print '<table border="0px" cellspacing="20">';
-		print' 
-			<div>
-				<tr>
-					<td style="text-align: center;">
-						<b>Ramal </b>
-					</td> 
-					<td style="text-align: center;">
-						<b>Descrição</b>
-					</td> 
-					<td style="text-align: center;">
-						<b>Setor</b>
-					</td>
-				</tr>
-			</div>';
 		
-		$sql = "SELECT * FROM ramais WHERE `ramal`LIKE'%$pesquisa%'OR `descricao`LIKE '%$pesquisa%' 
-				OR `local`LIKE '%$pesquisa%' OR `unidade`LIKE '%$pesquisa%' ORDER BY `descricao`";
-		// mostrando resultados
-		$result = $mysqli->query( $sql );
-		
-		while ( $dados = $result->fetch_assoc() ) {
-			$id = $dados['id'];
-			$ramal = $dados['ramal'];
-			$descricao = $dados['descricao'];
-			$local = $dados['local'];
-			$unidade = $dados['unidade'];
-					
-			print'<div><tr><td>'.$ramal.' </td> <td>'.$descricao.'</td> <td>'.$local.'</td></tr></div>';
-		} 
-		
-		print '</table>';
-		print '</div>';
-		print '</div>';
-	}else{
-			print'Nada foi pesquisado...';
+	} else {
+		curl_setopt_array($curl, [
+			CURLOPT_RETURNTRANSFER => 1,
+			CURLOPT_URL => "http://localhost:3001/ramal/",
+			CURLOPT_USERAGENT => 'Codular Sample cURL Request'
+		]);
 	}
+	$resp = curl_exec($curl);
+	curl_close($curl);
+			
+	$ramals = json_decode($resp, true);
+
+	foreach ($ramals as $ramal) {
+		$number = $ramal['number'];
+		$core = $ramal['core'];
+		$floor = $ramal['floor'];
+		$groupName = $ramal['group']['name'];
+		
+		print"<div>
+			<tr>
+				<td>$number</td>
+				<td>$groupName</td>
+				<td>$core</td>
+				<td>$floor</td>
+			</tr>
+		</div>";
+	}
+
+	print '</table>';
+	print '</div>';
+	print '</div>';
 }
 //Apresenta a opção "Sugerir Ramal", com um formulário para adição dos dados do ramal
 function funcaoSugRamal($mysqli){
