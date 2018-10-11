@@ -2,11 +2,8 @@
     <img src="intra/images/conf.png">
     <h1>Tecnologia da Informação</h1>
     <p>Celular de Plantao da TI - (51) 98600-3639</p>
-    <!-- <p>Ambiente de TI Normal</p> -->
-    <h2 style="color:blue">SISTEMA MV FORA DO AR</h2>
-    <p style="color:red">
-            Sistema MV fora do ar devido a problemas técnicos. <br>Equipe CanoasTec trabalhando na solução.
-            Comunicaremos assim que solucionado.
-            <br><i style="color:blue">Tecnologia da Informação</i>
-    </p>
+    <h1 style="color:blue"><b>Sistema MV Normal</b></h1>
+    <h2 style="color:red">
+        Use a nova <a style="color:blue" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].':8080'?>">Intranet</a>
+    </h2>
 </div>
