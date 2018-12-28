@@ -798,7 +798,7 @@ function popsCapTravessias(){
 
 function popsHu(){
 	//funcaoVerificaAcesso();
-		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsHu/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/HU/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -854,7 +854,7 @@ function popsHu(){
 
 function popsHpsc(){
 		//funcaoVerificaAcesso();
-		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsHpsc/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/HPSC/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -910,7 +910,7 @@ function popsHpsc(){
 
 function popsUpaCacapava(){
 		//funcaoVerificaAcesso();
-		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsUpaCacapava/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/UPA CACAPAVA/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
