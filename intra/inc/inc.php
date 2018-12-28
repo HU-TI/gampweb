@@ -3883,7 +3883,7 @@ function funcaoAdicionaRamal($ramal, $descricao, $setor){
 
 function funcaoInstitucional($mysqli){
 	
-	print 		
+	/*print 		
 		'<table>
 			<div class="organograma">
 				<a target="_blank" href="intra\docs\arquivos\Organogramas\organograma-gamp-canoas-v2.pdf">
@@ -3917,7 +3917,11 @@ function funcaoInstitucional($mysqli){
 					Organograma GAMP Canoas - UPAS e Saúde Mental
 				</div>
 			</div>
-		</table>';
+		</table>'; */
+		print '
+			<table>
+				<h3 style="text-align:center; color:red">Organograma Indisponíveis</h3>
+			</table>';
 }
 
 //////Ensino e Pesquisa
