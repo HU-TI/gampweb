@@ -8,7 +8,7 @@ include ('intra/inc/inc.php');
 <html>
 <link rel="shortcut icon" href="intra/images/fav_ico.png" />
 <head>
-	<title>Intranet GAMP</title>
+	<title>Unidades de Saúde - Canoas</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="intra/css/estilo.css">
 	<!--[if IE]>
@@ -19,11 +19,6 @@ include ('intra/inc/inc.php');
 <body>
 	
 	<div id="tudo">
-		<?php 
-			if($_SERVER["REMOTE_ADDR"] == "::1"){
-				var_dump($_SERVER);
-			}
-		?>
 		<div id="navegacao">
 			<div id="area">	
 				<div id="logo">
@@ -138,14 +133,9 @@ include ('intra/inc/inc.php');
 							<img src="intra/images/ico-pasta1.png" height="20px" width="20px">
 							<select name="tipoDePops" ONCHANGE="this.form.submit()">								
 								<option value="" disabled selected="selected">Selecione um tipo de POPS</option>
-								<option value="popsCapAmanhecer">CAPS - Amanhecer - Centro de Atenção Psicossocial</option>
-								<option value="popsCapNovosTempos">CAPS - Novos Tempos - Centro de Atenção Psicossocial</option>
-								<option value="popsCapRecantoGirassois">CAPS - Recanto dos Girassóis - Centro de Atenção Psicossocial</option>
-								<option value="popsCapTravessias">CAPS - Travessias - Centro de Atenção Psicossocial</option>
 								<option value="popsHu">HU - Hospital Universitário</option>
 								<option value="popsHpsc">HPSC - Hospital de Pronto Socorro de Canoas</option>
 								<option value="popsUpaCacapava">UPA - Caçapava - Unidade Pronto Atendimento</option>
-								<option value="popsUpaRioBranco">UPA - Rio Branco - Unidade Pronto Atendimento</option>
 							</select>											
 						</form>
 					</div>';

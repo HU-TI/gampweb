@@ -496,7 +496,7 @@ function funcaoAreaRestrita ($mysqli){
 function funcaoDocumentos($mysqli, $n_acesso){
 	 	funcaoVerificaAcesso();
 
-		$dirmenu = "./intra/docs/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/";
 		//$dir = "HMD-FS02\TI_hu$\EQUIPE TI - MD CANOAS\André\teste";
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -521,7 +521,7 @@ function funcaoDocumentos($mysqli, $n_acesso){
 		print '<table border="0px" cellspacing="20">';
 		print '<div class="docs">';
 		/* Diretorio que deve ser lido */
-		$dir = "./intra/docs/$caminho";
+		$dir = $_SERVER['DOCUMENT_ROOT']."/../docs/$caminho";
 		/* Abre o diretório */
 		$pasta= opendir($dir);
 		/* Loop para ler os arquivos do diretorio */
@@ -574,7 +574,7 @@ function funcaoDocumentos($mysqli, $n_acesso){
 function popsCapAmanhecer(){
 		
 		//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsCapAmanhecer/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsCapAmanhecer/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -630,7 +630,7 @@ function popsCapAmanhecer(){
 
 function popsCapNovosTempos(){
 		//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsCapNovosTempos/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsCapNovosTempos/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -686,7 +686,7 @@ function popsCapNovosTempos(){
 
 function popsCapRecantoGirassois(){
 		//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsCapRecantoGirassois/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsCapRecantoGirassois/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -742,7 +742,7 @@ function popsCapRecantoGirassois(){
 
 function popsCapTravessias(){
 	//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsCapTravessias/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsCapTravessias/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -798,7 +798,7 @@ function popsCapTravessias(){
 
 function popsHu(){
 	//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsHu/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/HU/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -854,7 +854,7 @@ function popsHu(){
 
 function popsHpsc(){
 		//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsHpsc/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/HPSC/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -910,7 +910,7 @@ function popsHpsc(){
 
 function popsUpaCacapava(){
 		//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsUpaCacapava/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/UPA CACAPAVA/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -966,7 +966,7 @@ function popsUpaCacapava(){
 
 function popsUpaRioBranco(){
 		//funcaoVerificaAcesso();
-		$dirmenu = "./intra/docs/pots/popsUpaRioBranco/";
+		$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/pots/popsUpaRioBranco/";
 		
 		/* Abre o diretório */
 		$pastamenu= opendir($dirmenu);
@@ -1024,7 +1024,7 @@ function popsUpaRioBranco(){
 //OPÇÕES DA COMISSÕES - inicio
 function comissaoHu(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/comissoes/comissaoHu";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/comissoes/comissaoHu";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1080,7 +1080,7 @@ function comissaoHu(){
 
 function comissaoHpsc(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/comissoes/comissaoHpsc";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/comissoes/comissaoHpsc";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1138,7 +1138,7 @@ function comissaoHpsc(){
 //OPÇÕES DE ARQUIVOS - inicio
 function arquivosFichasDoencasNotificacaoCompulsoria(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/arquivos/fichasDoencasNotificacaoCompulsoria";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/fichasDoencasNotificacaoCompulsoria";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1194,7 +1194,7 @@ function arquivosFichasDoencasNotificacaoCompulsoria(){
 
 function arquivosFluxosAcidentesTrabalho(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/arquivos/fluxosAcidentesTrabalho";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/fluxosAcidentesTrabalho";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1251,7 +1251,7 @@ function arquivosFluxosAcidentesTrabalho(){
 
 function arquivosOrganogramas(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/arquivos/organogramas";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/organogramas";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1308,7 +1308,7 @@ function arquivosOrganogramas(){
 
 function arquivosRegimentosCertidoes(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/arquivos/regimentosCertidoes";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/regimentosCertidoes";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1365,7 +1365,7 @@ function arquivosRegimentosCertidoes(){
 
 function arquivosModelosDeDocumentos(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/arquivos/modelosDeDocumentos";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/modelosDeDocumentos";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1422,7 +1422,7 @@ function arquivosModelosDeDocumentos(){
 
 function arquivosOutrosHu(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/arquivos/outros/hu";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/outros/hu";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1479,7 +1479,7 @@ function arquivosOutrosHu(){
 
 function arquivosOutrosHpsc(){
 	//funcaoVerificaAcesso();
-	$dirmenu = "./intra/docs/arquivos/outros/hpsc";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/outros/hpsc";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -3882,42 +3882,42 @@ function funcaoAdicionaRamal($ramal, $descricao, $setor){
 }
 
 function funcaoInstitucional($mysqli){
-	
+	$path = $_SERVER['SERVER_NAME'].":3001";
 	/*print 		
 		'<table>
 			<div class="organograma">
 				<a target="_blank" href="intra\docs\arquivos\Organogramas\organograma-gamp-canoas-v2.pdf">
 					<img src="intra/images/organograma-gamp-canoas-v2.png">
 				</a>					
-				<div class="desc">
+				<div class='desc'>
 					Organograma GAMP Canoas
 				</div>
 			</div>
-			<div class="organograma">					
-				<a target="_blank" href="intra\docs\arquivos\Organogramas\organograma-gamp-canoas-hpsc-v2.pdf">
-					<img src="intra/images/organograma-gamp-canoas-hpsc-v2.png">
+			<div class='organograma'>					
+				<a target='_blank' href='http://{$path}/file/commissions/?fileName=organograma-gamp-canoas-hpsc-v2.pdf'>
+					<img src='intra/images/organograma-gamp-canoas-hpsc-v2.png'>
 				</a>
-				<div class="desc">
+				<div class='desc'>
 					Organograma GAMP Canoas - HPSC
 				</div>
 			</div>
-			<div class="organograma">					
-				<a target="_blank" href="intra\docs\arquivos\Organogramas\organograma-gamp-canoas-hu-v2.pdf">
-					<img src="intra/images/organograma-gamp-canoas-hu-v2.png">
+			<div class='organograma'>					
+				<a target='_blank' href='http://{$path}/file/commissions/?fileName=organograma-gamp-canoas-hu-v2.pdf'>
+					<img src='intra/images/organograma-gamp-canoas-hu-v2.png'>
 				</a>
-				<div class="desc">
+				<div class='desc'>
 					Organograma GAMP Canoas - HU
 				</div>
 			</div>
-			<div class="organograma">					
-				<a target="_blank" href="intra\docs\arquivos\Organogramas\organograma-gamp-canoas-upas-e-saude-mental-v2.pdf">
-					<img src="intra/images/organograma-gamp-canoas-upas-e-saude-mental-v2.png">
+			<div class='organograma'>					
+				<a target='_blank' href='http://{$path}/file/commissions/?fileName=organograma-gamp-canoas-upas-e-saude-mental-v2.pdf'>
+					<img src='intra/images/organograma-gamp-canoas-upas-e-saude-mental-v2.png'>
 				</a>
-				<div class="desc">
+				<div class='desc'>
 					Organograma GAMP Canoas - UPAS e Saúde Mental
 				</div>
 			</div>
-		</table>'; */
+</table>'; */
 		print '
 			<table>
 				<h3 style="text-align:center; color:red">Organograma Indisponíveis</h3>
