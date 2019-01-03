@@ -1148,7 +1148,7 @@ function comissaoHpsc(){
 //OPÇÕES DE ARQUIVOS - inicio
 function arquivosFichasDoencasNotificacaoCompulsoria(){
 	//funcaoVerificaAcesso();
-	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/..	/fichasDoencasNotificacaoCompulsoria";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/fichasDoencasNotificacaoCompulsoria";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
