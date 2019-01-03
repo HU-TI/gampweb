@@ -617,7 +617,8 @@ function popsCapAmanhecer(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -673,7 +674,8 @@ function popsCapNovosTempos(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -729,7 +731,8 @@ function popsCapRecantoGirassois(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -785,7 +788,8 @@ function popsCapTravessias(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -841,7 +845,8 @@ function popsHu(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -897,7 +902,8 @@ function popsHpsc(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -953,7 +959,8 @@ function popsUpaCacapava(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -1009,7 +1016,8 @@ function popsUpaRioBranco(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
 		}
@@ -1067,7 +1075,8 @@ function comissaoHu(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1123,7 +1132,8 @@ function comissaoHpsc(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1138,7 +1148,7 @@ function comissaoHpsc(){
 //OPÇÕES DE ARQUIVOS - inicio
 function arquivosFichasDoencasNotificacaoCompulsoria(){
 	//funcaoVerificaAcesso();
-	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/../docs/arquivos/fichasDoencasNotificacaoCompulsoria";
+	$dirmenu = $_SERVER['DOCUMENT_ROOT']."/..	/fichasDoencasNotificacaoCompulsoria";
 	
 	/* Abre o diretório */
 	$pastamenu= opendir($dirmenu);
@@ -1181,7 +1191,8 @@ function arquivosFichasDoencasNotificacaoCompulsoria(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1238,7 +1249,8 @@ function arquivosFluxosAcidentesTrabalho(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1295,7 +1307,8 @@ function arquivosOrganogramas(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1352,7 +1365,8 @@ function arquivosRegimentosCertidoes(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1409,7 +1423,8 @@ function arquivosModelosDeDocumentos(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1466,7 +1481,8 @@ function arquivosOutrosHu(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}
@@ -1523,7 +1539,8 @@ function arquivosOutrosHpsc(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				echo '<a target="_blank" href='.$aux.'>'.$arquivo.'</a><br /></div>';
+				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
 	}

@@ -3,6 +3,9 @@
 error_reporting(E_ERROR | E_WARNING | E_PARSE);	
 include ('intra/config/config.php');
 include ('intra/inc/inc.php');
+define('SERVER_API', "http://".$_SERVER['SERVER_NAME'].":3001" );
+define('SERVER_NEW_INTRA', "http://".$_SERVER['SERVER_NAME']."8080" );
+define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 ?>
 <!DOCTYPE html>
 <html>
