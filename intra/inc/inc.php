@@ -617,7 +617,11 @@ function popsCapAmanhecer(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -674,7 +678,11 @@ function popsCapNovosTempos(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -731,7 +739,11 @@ function popsCapRecantoGirassois(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -788,7 +800,11 @@ function popsCapTravessias(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -845,7 +861,11 @@ function popsHu(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -902,7 +922,11 @@ function popsHpsc(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -959,7 +983,11 @@ function popsUpaCacapava(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -1016,7 +1044,11 @@ function popsUpaRioBranco(){
 					$aux = $dir.$arquivo;
 					$aux = str_replace(" ", "%20", "$aux");
 					print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					if($extensao != 'pdf') {
+						$url = SERVER_API."/file/?filePath=$aux";
+					} else {
+						$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+					}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 				}
 			}
@@ -1075,7 +1107,11 @@ function comissaoHu(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1132,7 +1168,11 @@ function comissaoHpsc(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1191,7 +1231,11 @@ function arquivosFichasDoencasNotificacaoCompulsoria(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1249,7 +1293,11 @@ function arquivosFluxosAcidentesTrabalho(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1307,7 +1355,11 @@ function arquivosOrganogramas(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1365,7 +1417,11 @@ function arquivosRegimentosCertidoes(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1423,7 +1479,11 @@ function arquivosModelosDeDocumentos(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1481,7 +1541,11 @@ function arquivosOutrosHu(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
@@ -1539,7 +1603,11 @@ function arquivosOutrosHpsc(){
 				$aux = $dir.$arquivo;
 				$aux = str_replace(" ", "%20", "$aux");
 				print'<div><img src="intra/images/'.$extensao.'.png" height="30px" width="30px">';
-				$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				if($extensao != 'pdf') {
+					$url = SERVER_API."/file/?filePath=$aux";
+				} else {
+					$url = SERVER_API."/file/?filePath=$aux&onScreen=1";
+				}
 					echo "<a target='_blank' href='$url'> $arquivo </a><br /></div>";
 			}
 		}
