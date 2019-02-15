@@ -17,12 +17,51 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 	<!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="intra/css/estilo-ie.css" />
 	<![endif]-->
+	<script src="./intra/js/jquery-2.1.3.min.js"> </script>
+	<link rel="stylesheet" href="./intra/bootstrap-4.3.1/dist/css/bootstrap.min.css">
+	<script src="./intra/bootstrap-4.3.1/dist/js/bootstrap.min.js" ></script>
+	<script> 
+		$(document).ready(function() {
+			$('#id-modal').show()
+			
+			$('.close-modal').click(function() {
+				$('#id-modal').removeClass('show')
+				setTimeout(function() {
+					$('#id-modal').hide()
+				}, 1000);
+			})
+			
+			setTimeout(function() {
+				$('#id-modal').addClass('show')
+			}, 1000);
+		})
+	</script>
 </head>
 
 <body>
-	
+
 	<div id="tudo">
 		<div id="navegacao">
+
+			<div class="modal fade" id="id-modal" tabindex="-1" role="dialog" aria-labelledby="id-modal" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header color-info">
+							<h5 class="modal-title" id="exampleModalLongTitle">Semana Sipat - HPSC</h5>
+							<button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body text-center">
+							<img src="./intra/images/sipat.jpg" alt="hpsc-sipat-image"/>
+						</div>
+						<div class="modal-footer color-info">
+							<button type="button" class="btn btn-secondary close-modal" data-dismiss="modal">Fechar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div id="area">	
 				<div id="logo">
 					<a href="">
