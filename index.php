@@ -20,22 +20,6 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 	<script src="./intra/js/jquery-2.1.3.min.js"> </script>
 	<link rel="stylesheet" href="./intra/bootstrap-4.3.1/dist/css/bootstrap.min.css">
 	<script src="./intra/bootstrap-4.3.1/dist/js/bootstrap.min.js" ></script>
-	<script> 
-		$(document).ready(function() {
-			$('#id-modal').show()
-			
-			$('.close-modal').click(function() {
-				$('#id-modal').removeClass('show')
-				setTimeout(function() {
-					$('#id-modal').hide()
-				}, 1000);
-			})
-			
-			setTimeout(function() {
-				$('#id-modal').addClass('show')
-			}, 1000);
-		})
-	</script>
 </head>
 
 <body>
