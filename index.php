@@ -490,7 +490,16 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 			//PARTE DE INCLUSÃO DE USUÁRIO - fim
 			//PARTE DA OUVIDORIA - inicio
 			
-			  case 'ouvidoria':
+			case 'ouvidoria':	
+				switch( $_POST['tipoDeOuvidoriaUnidade'] ){
+					case "ouvidoriaHu":
+						header("Location: ?tela=ouvidoriaHu");
+						break;
+					
+					case "ouvidoriaHpsc":
+						header("Location: ?tela=ouvidoriaHpsc");
+						break;		
+				}
 				print '
 					<div id="titulo" class="cor-padrao">Ouvidoria</div>
 					<div class="cor-padrao" align="center">Selecione uma Unidade</div>
@@ -505,18 +514,9 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 							<a href="?tela=?" style="text-decoration:none; margin-left: 10px;">Voltar</a>
 						</form>
 					</div>';
-					
-				switch($_POST['tipoDeOuvidoriaUnidade']){
-					case "ouvidoriaHu":
-						header('Location: ?tela=ouvidoriaHu');
-					break;
-					
-					case "ouvidoriaHpsc":
-						header('Location: ?tela=ouvidoriaHpsc');
-					break;
-				}//fecha switch
-			  break;			 
-			  case 'ouvidoriaHu':
+										
+			  	break;			 
+			case 'ouvidoriaHu':
 				print '	<div id="titulo" class="cor-padrao">Ouvidoria</div>';
 				print '	<div class="cor-padrao" align="center">Hospital Universitário</div>';
 				print '	<div class="comissoes" align="center">
