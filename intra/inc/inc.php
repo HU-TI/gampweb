@@ -280,23 +280,23 @@ function carregarSetores($mysqli){
 //
 //Apresenta a opção "Home/Atalhos", que lista os itens inseridos na tabela links no BD
 function funcaoAtalhos($mysqli){
-	print "<script> 
-		$(document).ready(function() {
-			$('#id-modal').show()
+	// print "<script> 
+	// 	$(document).ready(function() {
+	// 		$('#id-modal').show()
 			
-			$('.close-modal').click(function() {
+	// 		$('.close-modal').click(function() {
 
-				$('#id-modal').removeClass('show')
-				setTimeout(function() {
-					$('#id-modal').hide()
-				}, 1000);
-			})
+	// 			$('#id-modal').removeClass('show')
+	// 			setTimeout(function() {
+	// 				$('#id-modal').hide()
+	// 			}, 1000);
+	// 		})
 			
-			setTimeout(function() {
-				$('#id-modal').addClass('show')
-			}, 1000);
-		})
-	</script>";
+	// 		setTimeout(function() {
+	// 			$('#id-modal').addClass('show')
+	// 		}, 1000);
+	// 	})
+	// </script>";
 	
 	print '<table>';
 	// SQL query
