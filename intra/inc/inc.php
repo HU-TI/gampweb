@@ -349,11 +349,25 @@ function funcaoConvenios($mysqli){
 	$result = $mysqli->query( $sql );
 	print '<div class="convenios">';
 
-	while ( $dados = $result->fetch_assoc() ) {
+	$curl = curl_init();
+	$baseUrl = SERVER_API;
+
+
+	curl_setopt_array($curl, [
+		CURLOPT_RETURNTRANSFER => 1,
+		CURLOPT_URL => "$baseUrl/covenants/",
+		CURLOPT_USERAGENT => 'Codular Sample cURL Request'
+	]);
 		
+	$resp = curl_exec($curl);
+	curl_close($curl);
+
+	$covenants = json_decode($resp, true);
+	
+	foreach ($covenants as $dados) {
 		$id = $dados['id'];
-		$descricao = $dados['descricao'];
-		$endereco = $dados['endereco'];							
+		$descricao = $dados['title'];
+		$endereco = $dados['link'];							
 					
 		print'<div><a href="'.$endereco.'" target="_blank" title="'.$descricao.'">'.$descricao.'</a></div>';
 	}
@@ -398,7 +412,7 @@ function funcaoRamais($mysqli){
 			</tr>
 		</div>';
 	
-	$baseUrl = "http://".$_SERVER['SERVER_NAME'].":3001";
+	$baseUrl = "http://".SERVER_API;
 	if($pesquisa!=''){
 
 		curl_setopt_array($curl, [
@@ -3985,7 +3999,7 @@ function funcaoAdicionaRamal($ramal, $descricao, $setor){
 }
 
 function funcaoInstitucional($mysqli){
-	$path = $_SERVER['SERVER_NAME'].":3001";
+	$path = SERVER_API;
 	/*print 		
 		'<table>
 			<div class="organograma">
