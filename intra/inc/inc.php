@@ -412,7 +412,7 @@ function funcaoRamais($mysqli){
 			</tr>
 		</div>';
 	
-	$baseUrl = "http://".SERVER_API;
+	$baseUrl = SERVER_API;
 	if($pesquisa!=''){
 
 		curl_setopt_array($curl, [
