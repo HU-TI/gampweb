@@ -27,24 +27,24 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 	<div id="tudo">
 		<div id="navegacao">
 
-			<!-- <div class="modal fade" id="id-modal" tabindex="-1" role="dialog" aria-labelledby="id-modal" aria-hidden="true">
+			<div class="modal fade" id="id-modal" tabindex="-1" role="dialog" aria-labelledby="id-modal" aria-hidden="true">
 				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header color-info">
-							<h5 class="modal-title" id="exampleModalLongTitle">Semana Sipat - HPSC</h5>
+							<h5 class="modal-title" id="exampleModalLongTitle">Relatório Atividade Cipa/HPSC</h5>
 							<button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
 						<div class="modal-body text-center">
-							<img src="./intra/images/sipat.jpg" alt="hpsc-sipat-image"/>
+							<img src="./intra/images/pos-sipat.jpg" alt="relatorio-atividades-cipa" style=" width: 48em; height: 34em" />
 						</div>
 						<div class="modal-footer color-info">
 							<button type="button" class="btn btn-secondary close-modal" data-dismiss="modal">Fechar</button>
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 
 			<div id="area">	
 				<div id="logo">
