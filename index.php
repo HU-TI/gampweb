@@ -27,7 +27,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 	<div id="tudo">
 		<div id="navegacao">
 
-			<div class="modal fade" id="id-modal" tabindex="-1" role="dialog" aria-labelledby="id-modal" aria-hidden="true">
+			<!--<div class="modal fade" id="id-modal" tabindex="-1" role="dialog" aria-labelledby="id-modal" aria-hidden="true">
 				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header color-info">
@@ -44,7 +44,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 
 			<div id="area">	
 				<div id="logo">

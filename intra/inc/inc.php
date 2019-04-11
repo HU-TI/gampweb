@@ -280,12 +280,12 @@ function carregarSetores($mysqli){
 //
 //Apresenta a opção "Home/Atalhos", que lista os itens inseridos na tabela links no BD
 function funcaoAtalhos($mysqli){
-	print "<script> 
+	/*print "<script> 
 		$(document).ready(function() {
 			$('#id-modal').show()
 			
 			$('.close-modal').click(function() {
-
+	
 				$('#id-modal').removeClass('show')
 				setTimeout(function() {
 					$('#id-modal').hide()
@@ -296,7 +296,7 @@ function funcaoAtalhos($mysqli){
 				$('#id-modal').addClass('show')
 			}, 1000);
 		})
-	</script>";
+	*/</script>";
 	
 	print '<table>';
 	// SQL query
