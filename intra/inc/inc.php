@@ -296,7 +296,8 @@ function funcaoAtalhos($mysqli){
 				$('#id-modal').addClass('show')
 			}, 1000);
 		})
-	*/</script>";
+	</script>"
+	*/;
 	
 	print '<table>';
 	// SQL query
