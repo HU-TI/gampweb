@@ -365,7 +365,7 @@ function funcaoConvenios($mysqli){
 
 	$covenants = json_decode($resp, true);
 	
-	foreach ($covenants as $dados) {
+	foreach ((array) $covenants as $dados) {
 		$id = $dados['id'];
 		$descricao = $dados['title'];
 		$endereco = $dados['link'];							
@@ -438,7 +438,7 @@ function funcaoRamais($mysqli){
 	if(!$ramals){
 		print"<td>Nenhum Ramal encontrado</td>";
 	}
-	foreach ($ramals as $ramal) {
+	foreach ((array) $ramals as $ramal) {
 		$number = $ramal['number'];
 		$core = $ramal['core'];
 		$floor = $ramal['floor'];
