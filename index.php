@@ -89,13 +89,19 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 
 		// When the user clicks anywhere outside of the modal, close it
 		window.onclick = function(event) {
-		if (event.target == modal) {
-			modal.style.display = "none";
-		}
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
 		}
 
 		$(document).ready(function() {
-			if(window.location.pathname == "/") {
+			/**
+				use
+				if(window.location.href == "http://localhost/") {
+				para ambiente local
+			 */
+			
+			if(window.location.href == "http://gamp-web/") {
 				modal.style.display = "block";
 			}
 		});
