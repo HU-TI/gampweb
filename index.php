@@ -21,7 +21,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 	<link rel="stylesheet" href="./intra/bootstrap-4.3.1/dist/css/bootstrap.min.css">
 	<script src="./intra/bootstrap-4.3.1/dist/js/bootstrap.min.js" ></script>
 </head>
-
+	
 <body>
 
 	<div id="tudo">
