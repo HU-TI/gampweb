@@ -20,7 +20,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 	<script src="./intra/js/jquery-2.1.3.min.js"> </script>
 	<link rel="stylesheet" href="./intra/bootstrap-4.3.1/dist/css/bootstrap.min.css">
 	<script src="./intra/bootstrap-4.3.1/dist/js/bootstrap.min.js" ></script>
-	<style>
+	<!--style>
 		/* css para popup de avisos */
 		.modal {
 			display: hidden; /* Hidden by default */
@@ -53,12 +53,12 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 			text-decoration: none;
 			cursor: pointer;
 		}
-	</style>
+	</style-->
 </head>
 
 <body>
 	<!--modal para avisos-->
-	<div id="modalAvisos" class="modal">
+	<!--div id="modalAvisos" class="modal">
 		<div class="conteudo-modal">
 			<span class="close">&times;</span>
 			<h1 class="modal-titulo">Aviso</h1>
@@ -88,10 +88,13 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 
 		//Show modal when html loads
 		$(document).ready(function(){
-			modal.style.display = "block";
+			if ( window.location.href == "http://localhost/") {
+				modal.style.display = "block";
+			}
 		});
-	</script>
-	
+	</script-->
+	<!--Fim modal de avisos-->
+
 	<div id="tudo">
 		<div id="navegacao">
 
