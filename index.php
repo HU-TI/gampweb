@@ -64,7 +64,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 		}
 	</style>
 </head>
-
+	
 <body>
 	<!-- The Modal -->
 	<div id="myModal" class="modal">

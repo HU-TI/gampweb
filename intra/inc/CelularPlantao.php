@@ -2,7 +2,8 @@
     <img src="intra/images/conf.png">
     <h1>Tecnologia da Informação</h1>
     <p>Celular de Plantao da TI - (51) 98600-3639</p>
-    <h3>Ambiente de TI Normal</h3>
+    <h3>Ambiente de TI normal.</h3>
+    <img src="intra/images/comunicado_email.jpg">
     <h2 style="color:red">
         Use a nova <a style="color:blue" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].':8080'?>">Intranet</a>
     </h2>
