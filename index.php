@@ -20,12 +20,13 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 	<script src="./intra/js/jquery-2.1.3.min.js"> </script>
 	<link rel="stylesheet" href="./intra/bootstrap-4.3.1/dist/css/bootstrap.min.css">
 	<script src="./intra/bootstrap-4.3.1/dist/js/bootstrap.min.js" ></script>
-	<!--style>
-		/* css para popup de avisos */
+	<style>
+		/* The Modal (background) */
 		.modal {
-			display: hidden; /* Hidden by default */
+			display: none; /* Hidden by default */
 			position: fixed; /* Stay in place */
 			z-index: 1; /* Sit on top */
+			padding-top: 100px; /* Location of the box */
 			left: 0;
 			top: 0;
 			width: 100%; /* Full width */
@@ -34,34 +35,43 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 			background-color: rgb(0,0,0); /* Fallback color */
 			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 		}
-		.conteudo-modal {
-			background-color: #00bfff;
-			margin: 15% auto; /* 15% from the top and centered */
+
+		/* Modal Content */
+		.modal-content {
+			background-color: #66ccff;
+			margin: auto;
 			padding: 20px;
 			border: 1px solid #888;
-			width: 500; /* Could be more or less, depending on screen size */
+			width: 500;
 		}
+
+		/* The Close Button */
 		.close {
-			color: #aaa;
-  			float: right;
-  			font-size: 28px;
-  			font-weight: bold;
+			color: #aaaaaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
 		}
+
 		.close:hover,
 		.close:focus {
-			color: black;
+			color: #000;
 			text-decoration: none;
 			cursor: pointer;
 		}
-	</style-->
+		.aviso-titulo {
+			margin: auto;
+		}
+	</style>
 </head>
 
 <body>
-	<!--modal para avisos-->
-	<!--div id="modalAvisos" class="modal">
-		<div class="conteudo-modal">
-			<span class="close">&times;</span>
-			<h1 class="modal-titulo">Aviso</h1>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close">&times;</span>	
+			<h1 class="aviso-titulo">Aviso:</h1>
 			<img src="intra/images/comunicado_email.jpg">
 		</div>
 	</div>
@@ -92,9 +102,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 				modal.style.display = "block";
 			}
 		});
-	</script-->
-	<!--Fim modal de avisos-->
-
+	</script>
 	<div id="tudo">
 		<div id="navegacao">
 
@@ -1117,10 +1125,6 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 			<!--rodapé-->	
 			
 		</div>
-		<!--<div>
-			<a href="?tela=ouvidoria">aaaaaaaaaaaaa</a>
-		</div>-->
-
 	</div>
 	
 </body>
