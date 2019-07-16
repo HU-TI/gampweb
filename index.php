@@ -1052,7 +1052,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 		<div class="alert-modal-content">
 			<span class="close">&times;</span>	
 			<h1 class="aviso-titulo">Aviso:</h1>
-			<img src="intra/images/comunicado_email.jpg">
+			<img src="intra/images/aviso_arquivos.jpg">
 		</div>
 	</div>
 	<script>
