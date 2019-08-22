@@ -1077,13 +1077,12 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 		}
 
 		//Show modal when html loads
-		$(document).ready(function(){
-			if ( window.location.href == "http://localhost/") {
+		/*$(document).ready(function(){
+			if ( window.location.href == "http://gamp-web/") {
 				modal.style.display = "block";
 			}
-		});
+		});*/
 	</script>
-	
 </body>
 <?php
 	// Close Connection

@@ -93,10 +93,6 @@ a:active {
 	left: 0;
 }
 
-#logo{
-	
-}
-
 .color-info {
 	background-color: rgba(191, 239, 255, 0.527);
 }
@@ -203,9 +199,6 @@ a:active {
 	padding-top: 5px;
 	width: 1032px;
 	margin: 0 auto;
-}
-.center {
-
 }
 #area-principal {
 	width: 800px;
@@ -427,10 +420,6 @@ div.login-table {
 	text-align: center;
 }
 
-div.login-table tr{
-
-}
-
 ::-webkit-input-placeholder {
    color: #C1CDCD;
 }
@@ -554,15 +543,15 @@ div.ep td {
 
 /* Conteudo da Modal */
 .alert-modal-content {
-    background-color: #15233D;
-    color: #fff;
+	background-color: #15233D;
+	color: #fff;
 	margin: auto;
 	padding: 20px;
 	border: 1px solid #888;
 	width: 1000;
 }
-.alert-modal-content img{
-    max-width: 100%;
+.alert-modal-content img {
+	max-width: 100%;
 }
 
 /* O botão Close */
@@ -575,7 +564,7 @@ div.ep td {
 
 .close:hover,
 .close:focus {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	cursor: pointer;
 }
