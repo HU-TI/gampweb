@@ -1,0 +1,51 @@
+[33m6dd7d10[m[33m ([m[1;36mHEAD -> [m[1;32mcorreção-https[m[33m)[m HEAD@{0}: commit: adicionando popup de alertas
+[33mcd590d5[m HEAD@{1}: reset: moving to cd590d5
+[33mcd590d5[m HEAD@{2}: reset: moving to cd590d5
+[33m5d1a890[m[33m ([m[1;31morigin/correção-https[m[33m)[m HEAD@{3}: pull --tags origin correção-https: Fast-forward
+[33mcd590d5[m HEAD@{4}: commit: adicionando mensagem sobre emails
+[33m93f1088[m HEAD@{5}: checkout: moving from master to correção-https
+[33md100703[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{6}: pull --tags origin master: Fast-forward
+[33m58c14c4[m HEAD@{7}: pull --tags origin master: Fast-forward
+[33m0b3a2e7[m HEAD@{8}: checkout: moving from correção-https to master
+[33m93f1088[m HEAD@{9}: checkout: moving from correção-https to correção-https
+[33m93f1088[m HEAD@{10}: commit: atualização situação dos emails
+[33m0b3a2e7[m HEAD@{11}: checkout: moving from correção-https to correção-https
+[33m0b3a2e7[m HEAD@{12}: checkout: moving from master to correção-https
+[33m0b3a2e7[m HEAD@{13}: commit: corrigindo bug
+[33m5b8cbc4[m HEAD@{14}: commit: removendo banner cipa
+[33m670a392[m HEAD@{15}: pull: Fast-forward
+[33m5f9931d[m HEAD@{16}: pull: Fast-forward
+[33m0c3008b[m HEAD@{17}: pull: Fast-forward
+[33mf727492[m HEAD@{18}: pull: Fast-forward
+[33mc130fc5[m HEAD@{19}: pull: Fast-forward
+[33m2097bb8[m HEAD@{20}: pull: Fast-forward
+[33ma11cec3[m HEAD@{21}: pull: Fast-forward
+[33mbc8f382[m HEAD@{22}: pull: Fast-forward
+[33mc2f22f2[m HEAD@{23}: pull: Fast-forward
+[33m07563db[m HEAD@{24}: pull: Fast-forward
+[33md41f7e6[m HEAD@{25}: pull: Fast-forward
+[33m9c326c5[m HEAD@{26}: commit (merge): Removendo arquivos
+[33m2c96cf5[m HEAD@{27}: commit: removendo organogramas
+[33m662e4e4[m HEAD@{28}: pull: Fast-forward
+[33m25e971c[m HEAD@{29}: pull: Fast-forward
+[33m91a224a[m HEAD@{30}: pull: Fast-forward
+[33m15a72fc[m HEAD@{31}: pull: Fast-forward
+[33m805bd44[m HEAD@{32}: pull origin master: Fast-forward
+[33m5b785e4[m HEAD@{33}: pull: Fast-forward
+[33m93180f1[m HEAD@{34}: pull: Fast-forward
+[33m571ff48[m HEAD@{35}: pull: Fast-forward
+[33m8076ecc[m HEAD@{36}: commit: alterando servidor de busca de ramais
+[33ma6ff9fa[m HEAD@{37}: pull: Fast-forward
+[33m0a57fa8[m HEAD@{38}: pull: Fast-forward
+[33m5104919[m HEAD@{39}: pull: Fast-forward
+[33me2d00a5[m HEAD@{40}: pull: Fast-forward
+[33m88996eb[m HEAD@{41}: pull origin master: Fast-forward
+[33m3278d95[m HEAD@{42}: pull origin master: Fast-forward
+[33m76e6135[m HEAD@{43}: commit: adicionando imagem "consulta popular"
+[33m47024b0[m HEAD@{44}: pull origin master: Merge made by the 'recursive' strategy.
+[33m854b0ac[m HEAD@{45}: pull origin master: Merge made by the 'recursive' strategy.
+[33mf3f911e[m HEAD@{46}: pull: Merge made by the 'recursive' strategy.
+[33meb43ec6[m HEAD@{47}: commit: removendo arquivos nao usados
+[33m5372d74[m HEAD@{48}: commit: adicionando modelo de documentos
+[33m2593c7d[m HEAD@{49}: commit: Interligando GLPI com banco do novo servidor
+[33maab02d1[m HEAD@{50}: clone: from https://github.com/hu-ti/gampweb

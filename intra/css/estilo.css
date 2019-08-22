@@ -554,11 +554,15 @@ div.ep td {
 
 /* Conteudo da Modal */
 .alert-modal-content {
-	background-color: #66ccff;
+	background-color: #15233D;
+	color: #fff;
 	margin: auto;
 	padding: 20px;
 	border: 1px solid #888;
-	width: 500;
+	width: 1000;
+}
+.alert-modal-content img {
+	max-width: 100%;
 }
 
 /* O botão Close */
