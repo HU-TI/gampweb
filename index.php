@@ -1052,7 +1052,8 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 		<div class="alert-modal-content">
 			<span class="close">&times;</span>	
 			<h1 class="aviso-titulo">Aviso:</h1>
-			<img src="intra/images/covid-ultimo.jpg">
+			<img src="intra/images/covid-ultimo.png">
+			<!-- <img src="intra/images/covid-prevencao.jpg"> -->
 		</div>
 	</div>
 	<script>
