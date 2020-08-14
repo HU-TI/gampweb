@@ -93,10 +93,6 @@ a:active {
 	left: 0;
 }
 
-#logo{
-	
-}
-
 .color-info {
 	background-color: rgba(191, 239, 255, 0.527);
 }
@@ -203,9 +199,6 @@ a:active {
 	padding-top: 5px;
 	width: 1032px;
 	margin: 0 auto;
-}
-.center {
-
 }
 #area-principal {
 	width: 800px;
@@ -425,10 +418,6 @@ div.login-table {
 	padding-left: 40px;
 	border: 1px solid #d8d8d8;
 	text-align: center;
-}
-
-div.login-table tr{
-
 }
 
 ::-webkit-input-placeholder {
