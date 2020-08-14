@@ -1055,7 +1055,7 @@ define('SERVER_OLD_INTRA', "http://".$_SERVER['SERVER_NAME'] );
 <<<<<<< HEAD
 			<img src="intra/images/covid-ultimo.jpg">
 =======
-			<img src="intra/images/aviso-intra.png">
+			<!-- <img src="intra/images/aviso-intra.png"> -->
 >>>>>>> 6f94b2416787d657789ceaf0eead94a0106dad3f
 		</div>
 	</div>
